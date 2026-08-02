@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&background=00000000&center=true&vCenter=true&width=600&lines=Building+Agentic+RAG+Systems;LangChain+%2B+LangGraph+%2B+MCP;Turning+one-line+ideas+into+working+agents;AI%2FML+%2F+GenAI+Intern+%E2%80%94+Open+to+work">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0969DA&background=00000000&center=true&vCenter=true&width=600&lines=Building+Agentic+RAG+Systems;LangChain+%2B+LangGraph+%2B+MCP;Turning+one-line+ideas+into+working+agents;AI%2FML+%2F+GenAI+Intern+%E2%80%94+Open+to+work">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Building+Agentic+RAG+Systems;LangChain+%2B+LangGraph+%2B+MCP;Turning+one-line+ideas+into+working+agents;AI%2FML+%2F+GenAI+Intern+%E2%80%94+Open+to+work" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&background=00000000&center=true&vCenter=true&width=600&lines=Building+Agentic+RAG+Systems;LangChain+%2B+CrewAi+%2B+MCP;Turning+one-line+ideas+into+working+agents;AI%2FML+%2F+GenAI+Intern+%E2%80%94+Open+to+work">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0969DA&background=00000000&center=true&vCenter=true&width=600&lines=Building+Agentic+RAG+Systems;LangChain+%2B+CrewAi+%2B+MCP;Turning+one-line+ideas+into+working+agents;AI%2FML+%2F+GenAI+Intern+%E2%80%94+Open+to+work">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Building+Agentic+RAG+Systems;LangChain+%2B+CrewAi+%2B+MCP;Turning+one-line+ideas+into+working+agents;AI%2FML+%2F+GenAI+Intern+%E2%80%94+Open+to+work" alt="Typing SVG">
   </picture>
 </p>
 
