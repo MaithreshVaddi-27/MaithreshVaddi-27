@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1B3A5C,100:2F81F7&height=200&section=header&text=Vaddi%20Maithresh&fontSize=48&fontColor=ffffff&fontAlignY=34&desc=Agentic%20AI%20%7C%20GenAI%20%7C%20Automation%20Engineer&descAlignY=55&descSize=18&descColor=C9D6E3&animation=twinkling"/>
+=======
+<h1 align="center">Hi, I'm Maithresh 👋</h1>
+>>>>>>> 48bcd82 (added Resume-Crew project)
 
 <p align="center">
   <picture>
