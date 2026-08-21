@@ -28,7 +28,7 @@ B.Tech CSE undergrad, KMIT Hyderabad — graduating 2027, CGPA 7.96/10. I build 
 
 Everything below is something I built and can walk through line by line. No inflated claims, no "contributed to" when I mean "watched."
 
-- 🔭 Currently building: agentic RAG systems with MCP tool orchestration, persistent memory
+- 🔭 Currently building: an async job-scraping backend (CareerOS-Pro), and refining local-LLM agentic RAG with MCP tool orchestration
 - 💬 Ask me about: LangChain/LangGraph agents, MCP orchestration, RAG architecture, n8n/Make automation
 
 ---
@@ -46,7 +46,7 @@ Everything below is something I built and can walk through line by line. No infl
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logoColor=white">
 </p>
 
-LangChain, LangGraph, RAG, ChromaDB, HuggingFace Embeddings (`all-mpnet-base-v2`), MCP (Composio orchestration), CrewAI, AI Agents (ReAct / Plan-Execute), Conversational Memory/Checkpointing, Local LLMs (Ollama, LM Studio), LoRA/RLHF fundamentals
+LangChain, LangGraph, RAG, ChromaDB, HuggingFace Embeddings (`bge-base-en-v1.5`, `all-mpnet-base-v2`), MCP (Composio orchestration), CrewAI, AI Agents (ReAct / Plan-Execute), Conversational Memory/Checkpointing, Local LLMs (Ollama, llama.cpp, LM Studio), LoRA/RLHF fundamentals
 
 **2. Automation**
 <p>
@@ -74,6 +74,7 @@ n8n, Make.com, Automation Anywhere (RPA), Webhooks, REST APIs
 - **SQL** — MySQL, SQLite; schema design, joins, normalization to BCNF, ACID transactions, 15+ SQL problems solved on LeetCode
 - **Git** — version control, branching workflows
 - **Cloud/DevOps** *(coursework + hands-on labs, no named production deployment)* — AWS: EC2, EFS, EBS, VPC, S3, Lambda, SNS, SQS, Elastic Beanstalk, Lex, IAM, DynamoDB · Kubernetes, Jenkins — labs + self-practice
+- **Backend (async)** — Flask, httpx (async), Pydantic
 - **Data** — Pandas, NumPy, Matplotlib
 </details>
 
@@ -94,16 +95,16 @@ Node.js, Express.js, MongoDB, JavaScript, Java, C++ — academic labs, MERN basi
 
 ---
 
-### 🚀 Featured — Agentic AI / RAG
+### 🚀 Featured Projects
 
 #### 🧠 [MCP Agentic DocuChat](https://github.com/VaddiMaithresh-16/MCP_Agentic_DocuChat)
 **Solo-built · My strongest project — ground-up RAG + agent architecture**
 
-Agentic RAG CLI for chatting with PDFs. LangGraph agent orchestrates Chroma vector search + Gemini LLM + HuggingFace embeddings, with live Tavily web search wired in through Composio MCP. Persistent memory across sessions, dedup-safe document ingestion.
+Agentic RAG CLI for chatting with PDFs, refactored (v4) into a deliberately minimal single-agent design running fully on **local LLMs** — Qwen3-4B-GGUF via llama.cpp and gemma3:4b via Ollama — with zero cloud API dependency. Chroma vector search + HuggingFace embeddings for retrieval, `retrieve_multi` for compound multi-document questions, a `calculate` tool for numeric queries, and dynamic routing to live Tavily web search (Composio MCP) when a question falls outside the document set. Persistent memory across sessions, dedup-safe document ingestion.
 
-⭐ **Highlight:** full agent-loop design (retrieve → reason → tool-call → respond), not a LangChain quickstart wrapper.
+⭐ **Highlight:** deliberately pulled back from an earlier multi-agent version to a lean single-agent design after the added complexity wasn't earning its keep — full agent-loop (retrieve → reason → tool-call → respond), not a LangChain quickstart wrapper.
 
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/ChromaDB-3776AB?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Composio_MCP-4B32C3?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white"> <img src="https://img.shields.io/badge/Tavily-000000?style=flat&logoColor=white">
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/ChromaDB-3776AB?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Composio_MCP-4B32C3?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/llama.cpp-000000?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Tavily-000000?style=flat&logoColor=white">
 
 <br>
 
@@ -112,9 +113,20 @@ Agentic RAG CLI for chatting with PDFs. LangGraph agent orchestrates Chroma vect
 
 Local-first resume-to-JD matcher. CrewAI agents run deterministic keyword scoring plus LLM analysis (local Ollama, Gemini fallback) into a 6-part evidence-based report: match score, resume/JD profiles, skills-gap analysis, tailored bullets, interview prep.
 
-⭐ **Highlight:** hardware auto-detection (Apple Silicon/GPU), telemetry-off-by-default, pytest coverage across scoring/storage/CLI/reports.
+⭐ **Highlight:** hardware auto-detection (Apple Silicon/GPU), telemetry-off-by-default, pytest coverage across scoring/storage/CLI/reports (6 modules).
 
 <img src="https://img.shields.io/badge/CrewAI-FF6B35?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white"> <img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white">
+
+<br>
+
+#### 🧰 [CareerOS-Pro](https://github.com/VaddiMaithresh-16/CareerOS-Pro)
+**Solo-built**
+
+Async scraper for company career pages. Per-domain semaphore concurrency control keeps request load polite, exponential backoff + randomized jitter handles retries, and an in-memory HTML cache plus hash-based deduplication avoid redundant fetches. Ships with a CLI exposing location/salary-range filters and structured JSON output.
+
+⭐ **Highlight:** pytest suite covers concurrency behavior with zero live HTTP calls — deterministic, CI-safe tests instead of hitting real sites during CI.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/httpx_(async)-005571?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/BeautifulSoup4-4B8BBE?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logoColor=white"> <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white">
 
 <br>
 
