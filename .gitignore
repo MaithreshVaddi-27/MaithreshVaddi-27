@@ -1,4 +1,33 @@
+# OS cruft
 .DS_Store
-*.env
-venv/
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (asset-generation scripts, if kept in-repo)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local preview/scratch renders — never commit generated previews
+*-preview.svg
+*-preview.png
+*-settled.svg
+*-settled.png
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/hero-whoami.svg" alt="MaithreshVaddi-27 — terminal whoami render" width="840"/></p>
+<p align="center"><img src="./assets/01-hero-whoami.svg" alt="MaithreshVaddi-27 — terminal whoami render" width="840"/></p>
 
 <p align="center">
   <a href="https://github.com/MaithreshVaddi-27"><code>github.com/<b>MaithreshVaddi-27</b></code></a>
@@ -14,7 +14,7 @@
 
 ---
 
-<img src="./assets/card-about.svg" alt="cat about.md" width="840"/>
+<img src="./assets/03-about-intro.svg" alt="cat about.md" width="840"/>
 
 <table>
 <tr>
@@ -33,18 +33,18 @@ Right now I'm hardening **TrustRAG**'s claim-verification and adaptive-recovery 
 
 </td>
 <td width="45%">
-<img src="./assets/Profile-ascii.svg" alt="MaithreshVaddi-27 ascii portrait render" width="100%"/>
+<img src="./assets/02-ascii-portrait.svg" alt="MaithreshVaddi-27 ascii portrait render" width="100%"/>
 </td>
 </tr>
 </table>
 
-<img src="./assets/chip-status.svg" alt="curl stack.local/llm; echo $STATUS"/>
+<img src="./assets/04-status-snapshot.svg" alt="curl stack.local/llm; echo $STATUS"/>
 
 ---
 
-<img src="./assets/chip-ls-stack.svg" alt="ls stack/"/>
+<img src="./assets/05-stack-index.svg" alt="ls stack/"/>
 
-<img src="./assets/chip-cat-1.svg" alt="cat stack/1-llm-agentic-ai.md"/>
+<img src="./assets/06-stack-llm-agentic-ai.svg" alt="cat stack/1-llm-agentic-ai.md"/>
 <p>
 <img src="https://img.shields.io/badge/LangChain-0D1117?style=flat-square&logo=langchain&logoColor=E6EDF3">
 <img src="https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logoColor=E6EDF3">
@@ -58,7 +58,7 @@ Right now I'm hardening **TrustRAG**'s claim-verification and adaptive-recovery 
 
 LangChain, LangGraph (StateGraph agentic workflows, adaptive recovery loops), RAG, hybrid retrieval (dense + BM25 sparse + RRF fusion), Qdrant, ChromaDB, HuggingFace Embeddings (`bge-base-en-v1.5`, `all-mpnet-base-v2`, `all-MiniLM-L6-v2`), MCP (Composio orchestration), CrewAI, AI Agents (ReAct / Plan-Execute), Conversational Memory/Checkpointing, Local LLMs (Ollama, llama.cpp, LM Studio), LoRA/RLHF fundamentals
 
-<img src="./assets/chip-cat-2.svg" alt="cat stack/2-backend-apis.md"/>
+<img src="./assets/07-stack-backend-apis.svg" alt="cat stack/2-backend-apis.md"/>
 <p>
 <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=E6EDF3">
 <img src="https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=E6EDF3">
@@ -68,7 +68,7 @@ LangChain, LangGraph (StateGraph agentic workflows, adaptive recovery loops), RA
 
 FastAPI (async, JWT auth, rate limiting), Flask, httpx (async), Pydantic, MongoDB (Atlas), Docker / Docker Compose, SQLAlchemy
 
-<img src="./assets/chip-cat-3.svg" alt="cat stack/3-automation.md"/>
+<img src="./assets/08-stack-automation.svg" alt="cat stack/3-automation.md"/>
 <p>
 <img src="https://img.shields.io/badge/n8n-0D1117?style=flat-square&logo=n8n&logoColor=E6EDF3">
 <img src="https://img.shields.io/badge/Make.com-0D1117?style=flat-square&logo=make&logoColor=E6EDF3">
@@ -110,7 +110,7 @@ n8n, Make.com, Automation Anywhere (RPA), Webhooks, REST APIs
 
 ---
 
-<img src="./assets/chip-ls-projects.svg" alt="ls projects/ --featured"/>
+<img src="./assets/09-projects-index.svg" alt="ls projects/ --featured"/>
 
 #### 🛡️ [TrustRAG — AI Reliability Workbench](https://github.com/MaithreshVaddi-27/TrustRAG)
 **Solo-built · Production-oriented RAG reliability pipeline · 12/12 build phases complete**
@@ -186,7 +186,7 @@ LangChain agent orchestrating Firecrawl MCP search-and-scrape tools (via Composi
 
 ---
 
-<img src="./assets/chip-ls-automation.svg" alt="ls automation/"/>
+<img src="./assets/10-automation-index.svg" alt="ls automation/"/>
 
 **[Ai-Workflow-Automations](https://github.com/MaithreshVaddi-27/Ai-Workflow-Automations)** — Solo · n8n · Make.com · Automation Anywhere
 Consolidated collection of production-style automations built across three platforms on purpose, to learn where each one actually earns its place instead of forcing everything into one tool: **10 n8n workflows** (Internship Applier, LinkedIn Job Tracker, News Summarizer, Telegram Shopping Assistant with Groq Whisper voice input + Redis memory, Weather Daily Planner, Historical Content Publisher, Podcast Generator backend, Learning Journey Showcase, Social Media Automation, Learning Path Generator Agent), **2 Make.com scenarios** (Social Media Automation, Telegram Resume Evaluator), and **1 Automation Anywhere RPA bot** (Excel-driven email reminder system). Workflow exports live in linked Google Drive folders (redacted of keys/IDs); the repo holds documentation, diagrams, and screenshots.
@@ -198,7 +198,7 @@ Idea-to-published-audio pipeline. Lovable frontend triggers a webhook into n8n, 
 
 ---
 
-<img src="./assets/chip-ls-team.svg" alt="ls team-projects/"/>
+<img src="./assets/11-team-projects-index.svg" alt="ls team-projects/"/>
 
 <details open>
 <summary><b>CrimeSleuth</b> — AI-Powered Forensic Case Management — Team of 4</summary>
@@ -241,30 +241,30 @@ Full-stack signature verification via image similarity.
 
 ---
 
-<img src="./assets/chip-cat-education.svg" alt="cat education.md"/>
+<img src="./assets/12-education-summary.svg" alt="cat education.md"/>
 
 **Keshav Memorial Institute of Technology (KMIT)** — B.Tech CSE, 2023–2027, Hyderabad
 Coursework: DSA, Operating Systems, DBMS (MySQL), Computer Networks, Software Engineering, Cloud Computing (AWS), Cyber Security
 
 ---
 
-<img src="./assets/chip-heatmap.svg" alt="./contrib-heatmap.sh --range 1y"/>
+<img src="./assets/13-contribution-intro.svg" alt="./contrib-heatmap.sh --range 1y"/>
 
-<p align="center"><img src="./assets/contrib-heatmap.svg" alt="MaithreshVaddi-27 contribution heatmap" width="100%"/></p>
+<p align="center"><img src="./assets/14-contribution-heatmap.svg" alt="MaithreshVaddi-27 contribution heatmap" width="100%"/></p>
 
 ---
 
-<img src="./assets/card-closing.svg" alt="cat closing.md; ./contact.sh" width="840"/>
+<img src="./assets/15-closing-statement.svg" alt="cat closing.md; ./contact.sh" width="840"/>
 
 <p align="center">
   <a href="mailto:maithreshvaddi16@gmail.com"><img src="https://img.shields.io/badge/Email-maithreshvaddi16%40gmail.com-0D1117?style=flat-square&logo=gmail&logoColor=E6EDF3"></a>
   <a href="https://www.linkedin.com/in/maithreshvaddi/"><img src="https://img.shields.io/badge/LinkedIn-maithreshvaddi-0D1117?style=flat-square&logo=linkedin&logoColor=E6EDF3"></a>
 </p>
 
-<img src="./assets/chip-contact.svg" alt="echo $CONTACT"/>
+<img src="./assets/16-contact-details.svg" alt="echo $CONTACT"/>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MaithreshVaddi-27&label=Profile%20Views&color=2F81F7&style=flat" alt="Profile views">
 </p>
 
-<img src="./assets/card-logout.svg" alt="logout" width="840"/>
+<img src="./assets/17-session-end.svg" alt="logout" width="840"/>
