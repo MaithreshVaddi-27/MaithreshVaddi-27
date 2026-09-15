@@ -20,16 +20,15 @@
 <tr>
 <td width="55%" valign="top">
 
-I'm a final-year **B.Tech CSE** undergrad at KMIT Hyderabad, and most of what's below happened outside class — evenings and weekends spent on **agentic RAG architecture**: retrieval pipelines, MCP-based tool orchestration, multi-agent systems that route between reasoning and live data.
+Final-year **B.Tech CSE** undergrad at KMIT Hyderabad, building **agentic RAG systems** — retrieval pipelines, MCP-based tool orchestration, multi-agent workflows — outside coursework.
 
-Ten of those are solo builds, shipped as standalone repos — not notebooks, not one-off demos. A production RAG reliability pipeline with a claim-verification loop. A CrewAI resume-matching tool with an actual pytest suite behind it. Thirteen n8n/Make.com/RPA workflows I built, broke, and fixed myself, which taught me more than the building did. Two group platforms too, where I owned the ML-integration layer.
+10 solo repos, 13 automation workflows (n8n/Make.com/RPA), 2 group platforms with ML-integration ownership.
 
-Right now I'm hardening **TrustRAG**'s claim-verification and adaptive-recovery loop, and pushing **CareerOS-Pro** toward Docker-based production deployment with per-agent health monitoring.
+Currently hardening **TrustRAG**'s claim-verification loop and moving **CareerOS-Pro** toward Docker-based deployment.
 
-**A few things I actually believe, not just say:**
-- **Simple beats clever.** I rebuilt DocuChat from a multi-agent system back down to one agent once the extra complexity stopped paying for itself.
-- **Ship it, don't demo it.** Every project below is a real repo with a README, not a notebook I ran once.
-- **If I can't defend it in an interview, it doesn't go on this page.**
+**Working principles:**
+- Simple beats clever — rebuilt DocuChat from multi-agent to single-agent once the complexity stopped paying off.
+- Ship it, don't demo it — every project below is a maintained repo with a README, not a one-off notebook.
 
 </td>
 <td width="45%">
@@ -44,67 +43,20 @@ Right now I'm hardening **TrustRAG**'s claim-verification and adaptive-recovery 
 
 <img src="./assets/05-stack-index.svg" alt="ls stack/"/>
 
-<img src="./assets/06-stack-llm-agentic-ai.svg" alt="cat stack/1-llm-agentic-ai.md"/>
-<p>
-<img src="https://img.shields.io/badge/LangChain-0D1117?style=flat-square&logo=langchain&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/CrewAI-0D1117?style=flat-square&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/MCP-0D1117?style=flat-square&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Qdrant-0D1117?style=flat-square&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/ChromaDB-0D1117?style=flat-square&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logoColor=E6EDF3">
-</p>
+**LLM / Agentic AI** — LangChain, LangGraph (StateGraph, adaptive recovery loops), RAG (hybrid dense + BM25 + RRF), Qdrant, ChromaDB, HuggingFace embeddings, MCP (Composio), CrewAI, ReAct/Plan-Execute agents, local LLMs (Ollama, llama.cpp)
 
-LangChain, LangGraph (StateGraph agentic workflows, adaptive recovery loops), RAG, hybrid retrieval (dense + BM25 sparse + RRF fusion), Qdrant, ChromaDB, HuggingFace Embeddings (`bge-base-en-v1.5`, `all-mpnet-base-v2`, `all-MiniLM-L6-v2`), MCP (Composio orchestration), CrewAI, AI Agents (ReAct / Plan-Execute), Conversational Memory/Checkpointing, Local LLMs (Ollama, llama.cpp, LM Studio), LoRA/RLHF fundamentals
+**Backend / APIs** — FastAPI (async, JWT, rate limiting), Flask, MongoDB Atlas, Docker/Compose, Pydantic
 
-<img src="./assets/07-stack-backend-apis.svg" alt="cat stack/2-backend-apis.md"/>
-<p>
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/MongoDB-0D1117?style=flat-square&logo=mongodb&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=E6EDF3">
-</p>
-
-FastAPI (async, JWT auth, rate limiting), Flask, httpx (async), Pydantic, MongoDB (Atlas), Docker / Docker Compose, SQLAlchemy
-
-<img src="./assets/08-stack-automation.svg" alt="cat stack/3-automation.md"/>
-<p>
-<img src="https://img.shields.io/badge/n8n-0D1117?style=flat-square&logo=n8n&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Make.com-0D1117?style=flat-square&logo=make&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/REST_APIs-0D1117?style=flat-square&logoColor=E6EDF3">
-</p>
-
-n8n, Make.com, Automation Anywhere (RPA), Webhooks, REST APIs
+**Automation** — n8n, Make.com, Automation Anywhere (RPA), REST APIs, Webhooks
 
 <details>
-<summary><code>$ cat stack/4-other.md</code> — SQL, Git, Cloud/DevOps &amp; secondary frontend (lower priority)</summary>
+<summary><code>$ cat stack/other.md</code> — SQL, Git, Cloud, secondary frontend</summary>
 <br>
-<p>
-<img src="https://img.shields.io/badge/SQL-0D1117?style=flat-square&logo=mysql&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/AWS-0D1117?style=flat-square&logo=amazonaws&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Kubernetes-0D1117?style=flat-square&logo=kubernetes&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Jenkins-0D1117?style=flat-square&logo=jenkins&logoColor=E6EDF3">
-</p>
 
-- **SQL** — MySQL, SQLite; schema design, joins, normalization to BCNF, ACID transactions, 15+ SQL problems solved on LeetCode
-- **Git** — version control, branching workflows
-- **Cloud/DevOps** *(coursework + hands-on labs, no named production deployment)* — AWS: EC2, EFS, EBS, VPC, S3, Lambda, SNS, SQS, Elastic Beanstalk, Lex, IAM, DynamoDB · Kubernetes, Jenkins — labs + self-practice
+- **SQL** — MySQL, SQLite; schema design, normalization, ACID transactions
+- **Cloud/DevOps** *(coursework + labs)* — AWS (EC2, S3, Lambda, IAM), Kubernetes, Jenkins
 - **Data** — Pandas, NumPy, Matplotlib
-
-<br>
-
-<p>
-<img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Express.js-0D1117?style=flat-square&logo=express&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/Java-0D1117?style=flat-square&logo=openjdk&logoColor=E6EDF3">
-<img src="https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=cplusplus&logoColor=E6EDF3">
-</p>
-
-- **Frontend / general-purpose** *(not my target roles)* — React (Vite), Node.js, Express.js, JavaScript, Java, C++ — used for full-stack scaffolding on team projects (CrimeSleuth, SignatureSense) and TrustRAG's frontend
+- **Frontend/general** *(not target role)* — React (Vite), Node.js/Express, Java, C++ — used for scaffolding on team projects
 
 </details>
 
@@ -113,74 +65,43 @@ n8n, Make.com, Automation Anywhere (RPA), Webhooks, REST APIs
 <img src="./assets/09-projects-index.svg" alt="ls projects/ --featured"/>
 
 #### 🛡️ [TrustRAG — AI Reliability Workbench](https://github.com/MaithreshVaddi-27/TrustRAG)
-**Solo-built · Production-oriented RAG reliability pipeline · 12/12 build phases complete**
+**Solo · Production-oriented RAG reliability pipeline**
 
-Standard RAG pipelines fail silently — TrustRAG doesn't let them. A structured reliability loop: hybrid retrieve (dense + BM25 sparse + RRF) → generate (Gemini, grounded) → decompose claims → verify each claim via NLI → audit evidence integrity (SHA-256) → score reliability → if low, diagnose the failure type and run adaptive recovery (LangGraph query-rewrite → re-retrieve → re-verify) → grounded answer or explicit abstain.
+Hybrid retrieve → generate (grounded) → decompose claims → verify via NLI → audit evidence (SHA-256) → score reliability → diagnose failure & run bounded adaptive recovery (LangGraph query-rewrite → re-retrieve → re-verify) → grounded answer or explicit abstain.
 
-⭐ **Highlight:** the diagnosis → recovery loop is the differentiator — instead of silently returning a bad answer, it identifies *why* retrieval or verification failed and applies the cheapest targeted fix, bounded to prevent runaway recovery loops.
-
-<img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/React_18-0D1117?style=flat-square&logo=react&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Qdrant-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/MongoDB_Atlas-0D1117?style=flat-square&logo=mongodb&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/CI%2FCD-0D1117?style=flat-square&logo=githubactions&logoColor=E6EDF3">
-
-<br>
+<sub>FastAPI · React 18 · LangGraph · Qdrant · MongoDB Atlas · Docker · CI/CD</sub>
 
 #### 🧠 [MCP Agentic DocuChat](https://github.com/MaithreshVaddi-27/MCP_Agentic_DocuChat)
-**Solo-built · My original agent-architecture project — now with a Gradio front end**
+**Solo · Agentic RAG for PDFs, with Gradio UI**
 
-Agentic RAG app for chatting with PDFs. What started as a CLI has grown a full Gradio interface on top of `rag_backend.py`: per-question choice of provider (llama.cpp local-default, Ollama, or Gemini), switchable local/online embeddings, persistent SQLite conversation history with automatic personal-fact capture, a size- and age-bounded response cache, and protected public share links. `retrieve_multi` handles compound multi-document questions; MCP tools (Composio) add live Tavily web search when a question falls outside the document set.
+Per-question LLM choice (llama.cpp / Ollama / Gemini), switchable local/online embeddings, persistent SQLite history, response caching, multi-document query handling, Tavily web search via MCP when a question falls outside the document set. Deliberately pulled back from multi-agent to single-agent once the extra complexity stopped earning its keep.
 
-⭐ **Highlight:** deliberately pulled back from an earlier multi-agent version to a lean single-agent design after the added complexity wasn't earning its keep — full agent-loop (retrieve → reason → tool-call → respond), not a LangChain quickstart wrapper.
-
-<img src="https://img.shields.io/badge/LangChain-0D1117?style=flat-square&logo=langchain&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/ChromaDB-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Gradio-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Composio_MCP-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/llama.cpp-0D1117?style=flat-square&logoColor=E6EDF3">
-
-<br>
+<sub>LangChain · LangGraph · ChromaDB · Gradio · Composio MCP · Ollama · llama.cpp</sub>
 
 #### 📋 [Resume Crew](https://github.com/MaithreshVaddi-27/Resume_Crew)
-**Solo-built · Multi-agent CrewAI pipeline · CLI + Gradio UI**
+**Solo · Multi-agent CrewAI resume-JD matcher · CLI + Gradio**
 
-Compares a resume against a job description and produces an evidence-focused match report — no invented skills, no guessed experience. Runs entirely locally by default (Ollama) with optional Gemini cloud fallback. Accepts PDF, DOCX, TXT, and Markdown inputs across both the CLI and the Gradio web UI (with optional ngrok public sharing).
+Evidence-only match report (no invented skills/experience) from PDF/DOCX/TXT/Markdown inputs. Local-first (Ollama) with optional Gemini fallback. pytest coverage across scoring, storage, CLI, reports.
 
-⭐ **Highlight:** hardware auto-detection (Apple Silicon/GPU), telemetry-off-by-default, pytest coverage across scoring/storage/CLI/reports.
-
-<img src="https://img.shields.io/badge/CrewAI-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Gemini-0D1117?style=flat-square&logo=googlegemini&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Gradio-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/pytest-0D1117?style=flat-square&logo=pytest&logoColor=E6EDF3">
-
-<br>
+<sub>CrewAI · Ollama · Gemini · Gradio · pytest</sub>
 
 #### 🧰 [CareerOS-Pro](https://github.com/MaithreshVaddi-27/CareerOS-Pro)
-**Solo-built · Career-intelligence platform, actively in production hardening**
+**Solo · Career-intelligence platform, in production hardening**
 
-Aggregates job/internship listings from JSearch, Adzuna, Remotive, RemoteOK, Arbeitnow, plus a free BeautifulSoup4 company-career-page scraper. Deterministic normalization and two-stage deduplication (URL hash → content hash) keep the LLM out of the parsing path; hard eligibility filters are pure logic the LLM can't override. A LangGraph state machine routes match-explanation across a multi-provider fallback chain (LlamaCpp → NVIDIA NIM → OpenRouter → Gemini), and every LLM provider and job-source adapter runs as a self-contained agent with health monitoring (`GET /agents/health`) so one failing source can't take the system down.
+Aggregates listings from JSearch, Adzuna, Remotive, RemoteOK, Arbeitnow + a free scraper. Deterministic normalization, two-stage dedup, hard eligibility filters outside the LLM's control. LangGraph-routed multi-provider fallback chain (LlamaCpp → NVIDIA NIM → OpenRouter → Gemini). Two-stage link verification (HEAD check + Firecrawl scrape) — never invents a result.
 
-⭐ **Highlight:** two-stage verification (HTTP HEAD check, then Firecrawl content scrape) — it never invents a result. React 19 + Vite frontend, Docker Compose deployment.
-
-<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/React_19-0D1117?style=flat-square&logo=react&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/pytest-0D1117?style=flat-square&logo=pytest&logoColor=E6EDF3">
-
-<br>
-
-#### 🗺️ [MCP SkillMap Agent](https://github.com/MaithreshVaddi-27/MCP_SkillMap_Agent)
-**Solo-built · Career-intelligence agent over live job data**
-
-Skill-to-career mapping agent using Composio (Tavily) + RapidAPI JSearch through MCP to research skill demand and pull live job listings, with LangGraph conversation-memory checkpointing for follow-up filtering.
-
-<img src="https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Composio_MCP-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/JSearch_API-0D1117?style=flat-square&logoColor=E6EDF3"> <img src="https://img.shields.io/badge/Gemini-0D1117?style=flat-square&logo=googlegemini&logoColor=E6EDF3">
+<sub>Python · FastAPI · LangGraph · React 19 · Docker · pytest</sub>
 
 <details>
 <summary><code>$ ls agents/more/</code></summary>
 <br>
 
-**[AI Blog Writing Crew](https://github.com/MaithreshVaddi-27/Ai-Blog-Writer-Crew)** — Solo · CrewAI · Gemini
-Single-file 3-agent CrewAI pipeline (Content Strategist → Blog Writer → Editor) turns one topic into a finished, edited blog post saved as markdown.
-`CrewAI` `Gemini`
-
-**[AI Game Dev Crew](https://github.com/MaithreshVaddi-27/AI-Game-Dev-Crew)** — Solo · CrewAI · Pygame
-3-agent CrewAI pipeline (Designer → Developer → QA) turns a one-line idea into a playable 2D browser game, packaged to WebAssembly via `pygbag` and shared via ngrok.
-`CrewAI` `Gemini` `Pygame` `pygbag`
-
-**[MCP SalaryInsights Agent](https://github.com/MaithreshVaddi-27/MCP_SalaryInsights_Agent)** — Solo · LangChain · Gemini
-LangChain agent orchestrating Firecrawl MCP search-and-scrape tools (via Composio) to pull live compensation data from Glassdoor, AmbitionBox, PayScale, and Levels.fyi, with LangGraph conversation memory for multi-turn follow-ups.
-
-**[MCP Email Inbox Summarizer](https://github.com/MaithreshVaddi-27/MCP_Email_Inbox_Summarizer)** — Gmail triage agent, classifies unread mail URGENT / NEEDS REPLY / FYI, drafts replies via Composio MCP. Read/draft only, never auto-sends.
-
-**[MCP CourseFinder Agent](https://github.com/MaithreshVaddi-27/MCP_CourseFinder_Agent)** — Merges Tavily + YouTube MCP results into one structured learning path per topic; originally prototyped in Colab, now a clean local/terminal-runnable project.
+- **[MCP SkillMap Agent](https://github.com/MaithreshVaddi-27/MCP_SkillMap_Agent)** — Skill-to-career mapping over live job data via Composio (Tavily + JSearch), LangGraph memory checkpointing.
+- **[MCP SalaryInsights Agent](https://github.com/MaithreshVaddi-27/MCP_SalaryInsights_Agent)** — LangChain agent pulling live comp data (Glassdoor, AmbitionBox, PayScale, Levels.fyi) via Firecrawl MCP.
+- **[AI Blog Writing Crew](https://github.com/MaithreshVaddi-27/Ai-Blog-Writer-Crew)** — 3-agent CrewAI pipeline, topic → edited blog post.
+- **[AI Game Dev Crew](https://github.com/MaithreshVaddi-27/AI-Game-Dev-Crew)** — 3-agent CrewAI pipeline, idea → playable 2D browser game (WebAssembly via pygbag).
+- **[MCP Email Inbox Summarizer](https://github.com/MaithreshVaddi-27/MCP_Email_Inbox_Summarizer)** — Gmail triage agent (URGENT/NEEDS REPLY/FYI), drafts only — never auto-sends.
+- **[MCP CourseFinder Agent](https://github.com/MaithreshVaddi-27/MCP_CourseFinder_Agent)** — Merges Tavily + YouTube MCP results into one structured learning path.
 
 </details>
 
@@ -188,63 +109,25 @@ LangChain agent orchestrating Firecrawl MCP search-and-scrape tools (via Composi
 
 <img src="./assets/10-automation-index.svg" alt="ls automation/"/>
 
-**[Ai-Workflow-Automations](https://github.com/MaithreshVaddi-27/Ai-Workflow-Automations)** — Solo · n8n · Make.com · Automation Anywhere
-Consolidated collection of production-style automations built across three platforms on purpose, to learn where each one actually earns its place instead of forcing everything into one tool: **10 n8n workflows** (Internship Applier, LinkedIn Job Tracker, News Summarizer, Telegram Shopping Assistant with Groq Whisper voice input + Redis memory, Weather Daily Planner, Historical Content Publisher, Podcast Generator backend, Learning Journey Showcase, Social Media Automation, Learning Path Generator Agent), **2 Make.com scenarios** (Social Media Automation, Telegram Resume Evaluator), and **1 Automation Anywhere RPA bot** (Excel-driven email reminder system). Workflow exports live in linked Google Drive folders (redacted of keys/IDs); the repo holds documentation, diagrams, and screenshots.
-`n8n` `Make.com` `Automation Anywhere` `Gemini` `Groq` `MurfAI` `SerpApi` `ScraperAPI` `OpenWeatherMap` `Redis`
+**[Ai-Workflow-Automations](https://github.com/MaithreshVaddi-27/Ai-Workflow-Automations)** — 10 n8n workflows, 2 Make.com scenarios, 1 Automation Anywhere RPA bot, built across three platforms to learn where each earns its place. Exports in linked Drive folders; repo holds docs and diagrams.
 
-**[AI Podcast Generator — PodEase Pro](https://podease-pro.lovable.app)** — Solo · n8n · Gemini API · Murf AI · Lovable &nbsp; ![status](https://img.shields.io/badge/status-live-27C93F?style=flat-square&labelColor=0D1117)
-Idea-to-published-audio pipeline. Lovable frontend triggers a webhook into n8n, which routes the topic through Gemini for script generation, then Murf AI for text-to-speech, returning the finished file via webhook response.
-`n8n` `Gemini API` `Murf AI` `Webhooks`
+**[PodEase Pro](https://podease-pro.lovable.app)** ![status](https://img.shields.io/badge/status-live-27C93F?style=flat-square&labelColor=0D1117) — Idea-to-audio pipeline: Lovable frontend → n8n webhook → Gemini (script) → Murf AI (TTS).
 
 ---
 
 <img src="./assets/11-team-projects-index.svg" alt="ls team-projects/"/>
 
-<details open>
-<summary><b>CrimeSleuth</b> — AI-Powered Forensic Case Management — Team of 4</summary>
-<br>
+**[CrimeSleuth](https://github.com/MaithreshVaddi-27/CrimeSleuth)** — Forensic case management, team of 4. My scope: trained a 14-class crime-scene classification model on Colab, exported as `.pth`, integrated for PyTorch inference in Flask alongside YOLO detection; outputs feed Gemini for auto-generated reports.
+<sub>React · Flask · MongoDB · YOLO · Gemini</sub>
 
-React (Vite) · Flask · MongoDB · YOLO · Gemini API
-
-Investigators create cases, upload evidence, get computer-vision + multimodal AI analysis and an LLM chat interface over case data.
-
-**My scope:** trained the 14-class crime-scene classification model myself on Colab, saved as `.pth`, loaded locally for PyTorch inference in Flask — integrated YOLO detection, outputs feed Gemini to auto-generate investigation reports.
-
-[→ Repo](https://github.com/MaithreshVaddi-27/CrimeSleuth)
-</details>
-
-<details>
-<summary><b>SignatureSense</b> — Handwritten Signature Verification — Team of 4</summary>
-<br>
-
-React (Vite) · Node.js/Express · MongoDB · Flask · TensorFlow/Keras
-
-Full-stack signature verification via image similarity.
-
-**My scope:** integrated a pre-trained Keras/TensorFlow model (`.h5`) for inference, image preprocessing, integration testing, frontend fixes.
-
-[→ Repo](https://github.com/MaithreshVaddi-27/SignatureSense)
-</details>
-
----
-
-<details>
-<summary><code>$ ls projects/other/</code></summary>
-<br>
-
-- **[MockInterview — GenAI Transcription System](https://github.com/MaithreshVaddi-27/MockInterview)** — Full-stack GenAI transcription platform (React + TypeScript frontend, Flask + PyTorch backend) with three modes: audio→text via a custom-trained Wav2Vec2+BERT-style model built from scratch, video→text via a custom multimodal model inspired by AV-HuBERT, and video→text via OpenAI Whisper. Each backend runs as a standalone Flask service; Firebase auth on the frontend.
-- **[F5-TTS Podcast Generator](https://github.com/MaithreshVaddi-27/F5-tts-podcast-generator)** — Reproducible Kaggle notebook, F5-TTS voice cloning, Gradio inference UI.
-- **Amazon E-commerce EDA** — Cleaned `discount_percentage` field, groupby/nlargest analysis, Matplotlib visuals.
-- **[FoodMunch](https://github.com/MaithreshVaddi-27/FoodMunch)** — Responsive restaurant landing page, HTML/CSS/Bootstrap. *(frontend — low priority, kept for completeness)*
-
-</details>
+**[SignatureSense](https://github.com/MaithreshVaddi-27/SignatureSense)** — Handwritten signature verification, team of 4. My scope: integrated a pre-trained Keras/TensorFlow model for inference, image preprocessing, integration testing.
+<sub>React · Node/Express · MongoDB · Flask · TensorFlow</sub>
 
 ---
 
 <img src="./assets/12-education-summary.svg" alt="cat education.md"/>
 
-**Keshav Memorial Institute of Technology (KMIT)** — B.Tech CSE, 2023–2027, Hyderabad
-Coursework: DSA, Operating Systems, DBMS (MySQL), Computer Networks, Software Engineering, Cloud Computing (AWS), Cyber Security
+**KMIT, Hyderabad** — B.Tech CSE, 2023–2027 · DSA, OS, DBMS, Computer Networks, Software Engineering, Cloud Computing (AWS), Cyber Security
 
 ---
 
@@ -260,8 +143,6 @@ Coursework: DSA, Operating Systems, DBMS (MySQL), Computer Networks, Software En
   <a href="mailto:maithreshvaddi16@gmail.com"><img src="https://img.shields.io/badge/Email-maithreshvaddi16%40gmail.com-0D1117?style=flat-square&logo=gmail&logoColor=E6EDF3"></a>
   <a href="https://www.linkedin.com/in/maithreshvaddi/"><img src="https://img.shields.io/badge/LinkedIn-maithreshvaddi-0D1117?style=flat-square&logo=linkedin&logoColor=E6EDF3"></a>
 </p>
-
-<img src="./assets/16-contact-details.svg" alt="echo $CONTACT"/>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MaithreshVaddi-27&label=Profile%20Views&color=2F81F7&style=flat" alt="Profile views">
