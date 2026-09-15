@@ -26,6 +26,8 @@ Final-year **B.Tech CSE** undergrad at KMIT Hyderabad, building **agentic RAG sy
 
 Currently hardening **TrustRAG**'s claim-verification loop and moving **CareerOS-Pro** toward Docker-based deployment.
 
+**Education:** KMIT, Hyderabad — B.Tech CSE, 2023–2027 · DSA, OS, DBMS, Computer Networks, Software Engineering, Cloud Computing (AWS), Cyber Security
+
 **Working principles:**
 - Simple beats clever — rebuilt DocuChat from multi-agent to single-agent once the complexity stopped paying off.
 - Ship it, don't demo it — every project below is a maintained repo with a README, not a one-off notebook.
@@ -125,24 +127,18 @@ Aggregates listings from JSearch, Adzuna, Remotive, RemoteOK, Arbeitnow + a free
 
 ---
 
-<img src="./assets/12-education-summary.svg" alt="cat education.md"/>
-
-**KMIT, Hyderabad** — B.Tech CSE, 2023–2027 · DSA, OS, DBMS, Computer Networks, Software Engineering, Cloud Computing (AWS), Cyber Security
-
----
-
 <img src="./assets/13-contribution-intro.svg" alt="./contrib-heatmap.sh --range 1y"/>
 
 <p align="center"><img src="./assets/14-contribution-heatmap.svg" alt="MaithreshVaddi-27 contribution heatmap" width="100%"/></p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%"/>
+</p>
+<p align="center"><sub>auto-regenerated daily — see <code>.github/workflows/snake.yml</code></sub></p>
+
 ---
 
 <img src="./assets/15-closing-statement.svg" alt="cat closing.md; ./contact.sh" width="840"/>
-
-<p align="center">
-  <a href="mailto:maithreshvaddi16@gmail.com"><img src="https://img.shields.io/badge/Email-maithreshvaddi16%40gmail.com-0D1117?style=flat-square&logo=gmail&logoColor=E6EDF3"></a>
-  <a href="https://www.linkedin.com/in/maithreshvaddi/"><img src="https://img.shields.io/badge/LinkedIn-maithreshvaddi-0D1117?style=flat-square&logo=linkedin&logoColor=E6EDF3"></a>
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=MaithreshVaddi-27&label=Profile%20Views&color=2F81F7&style=flat" alt="Profile views">
