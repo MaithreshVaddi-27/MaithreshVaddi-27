@@ -13,13 +13,19 @@ jobs:
       contents: write
 
     steps:
+      - name: Check out repo (for metadata script)
+        uses: actions/checkout@v4
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#0284C7&color_dots=#EDF2F7,#C4E4FB,#93D2FA,#38BDF8,#0C4A6E
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#38BDF8&color_dots=#0D1320,#134E6F,#1B7FB8,#38BDF8,#BAE6FD
+
+      - name: Inject terminal metadata bars
+        run: python3 .github/scripts/snake_metadata.py
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
