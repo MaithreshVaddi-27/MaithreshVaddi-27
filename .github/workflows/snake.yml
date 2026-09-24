@@ -24,6 +24,9 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=#0284C7&color_dots=#EDF2F7,#C4E4FB,#93D2FA,#38BDF8,#0C4A6E
             dist/github-contribution-grid-snake-dark.svg?color_snake=#38BDF8&color_dots=#0D1320,#134E6F,#1B7FB8,#38BDF8,#BAE6FD
 
+      - name: Fix dist ownership (snk container writes as root)
+        run: sudo chown -R $(whoami):$(whoami) dist/
+
       - name: Inject terminal metadata bars
         run: python3 .github/scripts/snake_metadata.py
 
