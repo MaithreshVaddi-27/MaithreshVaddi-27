@@ -18,13 +18,13 @@
 
 > No inflated claims — every line here is something I can defend in an interview. Final-year **B.Tech CSE @ KMIT Hyderabad** (CGPA **7.96/10**), building **agentic RAG** outside class: hybrid retrieval, MCP tool orchestration, LangGraph recovery loops. Now hardening **TrustRAG** verification + pushing **CareerOS-Pro** to Docker prod.
 
-<p align="center"><img src="./assets/02-ascii-portrait.svg" alt="TARGET // MAITHRESH_VADDI — whoami --ascii render" width="320"/></p>
+<p align="center"><img src="./assets/02-ascii-portrait.svg" alt="TARGET // MAITHRESH_VADDI — whoami --ascii render" width="360"/></p>
 
 <img src="./assets/04-status-snapshot.svg" alt="$ curl stack.local/llm — local inference runtime telemetry" width="840"/>
 
 ## [01] Systems · `$ ls projects/ --featured`
 
-#### [TrustRAG — AI Reliability Workbench](https://github.com/MaithreshVaddi-27/TrustRAG) · flagship · `FastAPI · React 18 · Qdrant · LangGraph · ONNX · MCP · Docker`
+### [TrustRAG — AI Reliability Workbench](https://github.com/MaithreshVaddi-27/TrustRAG) · flagship · `FastAPI · React 18 · Qdrant · LangGraph · ONNX · MCP · Docker`
 `route → hybrid retrieve → grounded generate → claim decompose + NLI (one fused call, −62% verify latency) → SHA-256 audit → score vs τ ≥ 0.75 → bounded recover (≤2) → answer / ABSTAIN`
 - Offline by default: Ollama/llama.cpp/MLX + ONNX `bge-small` + int8 rerank. No API keys. Optional Gemini/NVIDIA NIM.
 - Perf work: KV-cache quant, flash attention, prompt caching, speculative decoding, adaptive top-k. JWT-HS256 + JTI denylist, SSRF-hardened URLs, Prometheus, A/B framework, MCP server.
