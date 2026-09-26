@@ -25,7 +25,7 @@
 
 > No inflated claims — every line here is something I can defend in an interview. Final-year **B.Tech CSE @ KMIT Hyderabad** (CGPA **7.96/10**), building **agentic RAG** outside class: hybrid retrieval, MCP tool orchestration, LangGraph recovery loops. Now hardening **TrustRAG** verification + pushing **CareerOS-Pro** to Docker prod.
 
-<p align="center"><img src="./assets/02-ascii-portrait.svg" alt="TARGET // MAITHRESH_VADDI — whoami --ascii render" width="360"/></p>
+<img src="./assets/02-ascii-portrait.svg" alt="$ whoami — handle, role, base, focus, proof" width="100%"/>
 
 <img src="./assets/03-about-intro.svg" alt="$ cat about.md — defense pledge" width="100%"/>
 <img src="./assets/04-status-snapshot.svg" alt="$ curl stack.local/llm — local inference runtime telemetry" width="100%"/>
