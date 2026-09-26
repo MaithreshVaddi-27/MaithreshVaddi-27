@@ -28,6 +28,9 @@ venv/
 *-settled.svg
 *-settled.png
 
+# CI-generated arcade output (lives on the `output` branch, never on main)
+dist/
+
 # Logs
 *.log
 npm-debug.log*

@@ -115,4 +115,4 @@ StudyComrade Data Analytics (EDA on Amazon dataset) · Outskill AI Mastermind (a
 
 📫 [maithresh.sh](https://maithreshvaddi-27.github.io/maithresh.sh/) · [LinkedIn](https://www.linkedin.com/in/maithreshvaddi/) · [maithreshvaddi16@gmail.com](mailto:maithreshvaddi16@gmail.com) — open to AI/ML, GenAI, Agentic AI, Automation internships. Hyderabad / remote.
 
-<img src="./assets/11-session-end.svg" alt="logout — press ESC to close" width="100%"/>
+<img src="./assets/11-session-end.svg" alt="logout — session closed" width="100%"/>

@@ -313,3 +313,35 @@ Upstream `action.yml` confirms **no theme input** exists (only `github_user_name
 ## R7.3 Fix
 
 Added `Check out repo (for recolor script) — actions/checkout@v4` as step 1. Final order: checkout → generate → chown → recolor → push. Step-ordering audited: generate writes untracked `dist/` (no conflict with checkout), recolor still sits after chown (write access), push unaffected. Lesson recorded: **any new `run:` step touching repo files must be preceded by checkout — verify with a mental dry-run of the workspace state, not just YAML validity.**
+
+---
+
+# Round 8 — ESC removal + dead-CSS purge + full re-sweep (2026-09-26, uncommitted)
+
+## R8.1 ESC removal (requested)
+
+- `11-session-end.svg`: deleted the ESC key-cap rect + `ESC` text; caption re-anchored to `x=20` as `scroll to inspect · ⌘K for console`.
+- `01-hero-whoami.svg` footer trimmed `// ESC TO CLOSE` (would otherwise dangle after the keycap's removal).
+- README alt text updated to `logout — session closed`. `grep` for ESC-complex: zero hits in README/assets/workflows.
+
+## R8.2 Dead-CSS purge (per-file usage analysis)
+
+Stripped selectors no element references, per file: 03 (`r5,cur,live` + `blink/glow` keyframes), 04 (`cur,live` + both keyframes), 10 (`r5,live` + `glow`), 11 (`r3,r4,r5,cur,live` + both keyframes), 12 (`r5,cur` + `blink`); reduced-motion selector lists rebuilt to surviving classes. 01/02/05–09/14 verified fully-used, untouched. Result: 13/13 XML-valid, zero dangling classes, zero empty rules, keyframes minimal per file (`blink` only where `.cur` lives, `glow` only where `.live` lives).
+
+## R8.3 Incident + guardrail (honest record)
+
+The first purge script's media-query regex misfired and briefly corrupted 4 reduced-motion blocks (trailing-comma garbage). Caught by the mandatory post-edit dump **before any commit**, repaired with deterministic string surgery, then re-verified with an automated dangling/empty-rule/syntax scan (0 issues). Files 01/02 byte-identical to HEAD except the intentional footer trim. Guardrail adopted: **never regex-rewrite CSS — reconstruct from computed class usage, then diff-dump every touched block.**
+
+## R8.4 Hygiene
+
+`.gitignore` += `dist/` (CI arcade output lives on `output` branch; never commit local test runs). No trailing whitespace, no double blanks, all links well-formed, asset cross-check still 13=13.
+
+## R8.5 FINAL REMAINING-STEPS LIST (all rounds consolidated)
+
+Owner actions (require you, not the agent):
+1. **Actions → Generate Pacman → Run workflow** (validates checkout fix + recolor live; expect `recolored 38 tokens` ×2). Still the single most important step.
+2. Confirm the two `output` SVGs resolve, then view the profile signed-out (light mode) and signed-in dark.
+3. Commit + push this round (8 files: README, .gitignore, 6 SVGs) — say the word.
+4. Optional backlog: R2-R1 breakout game · R2-R2 SHA-pin `@main` · R2-R5 card `<title>`s · R2-R6 portrait reveal budget.
+5. Wontfix by design: R3-R1 pill hover, komarev counter (revert one-liner in R3.3 if wanted).
+6. Recurring: re-run the banned-ref + asset 1:1 + XML checks after any future asset edit (commands in R8.2/R4.3).
