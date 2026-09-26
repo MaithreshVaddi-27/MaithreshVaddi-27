@@ -5,7 +5,7 @@
 <h1 align="center">Hi, I'm Maithresh Vaddi 👋</h1>
 <p align="center"><b>Final-year B.Tech CSE @ KMIT Hyderabad (CGPA 7.96/10)</b> · building <b>agentic RAG</b> that works offline and survives production</p>
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=920&lines=%24+whoami+--role+%2F%2F+maithresh.sh;AI%2FML+Engineer+%26+Agentic+Systems+Builder;10+solo+systems+%C2%B7+13+automations+%C2%B7+100%25+offline-capable;If+I+can%27t+defend+it%2C+it+isn%27t+here" alt="Typing intro" width="100%"/></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=920&lines=%24+whoami;maithreshvaddi-27+%3A%3A+ai-ml-engineer;%24+cat+mission.txt;agentic+RAG+that+works+offline;%24+.%2Fprove.sh+--strict;10+systems+%C2%B7+13+automations+%C2%B7+0+inflated+claims" alt="Terminal session — whoami, mission, proof" width="100%"/></p>
 
 <p align="center">
   <a href="https://maithreshvaddi-27.github.io/maithresh.sh/"><img src="./assets/05-pill-portfolio.svg" alt="Portfolio — maithresh.sh" height="32"/></a>
@@ -89,7 +89,7 @@
 ## [03] Academic · `$ ls team/ --scope=mine`
 
 - **[CrimeSleuth](https://github.com/MaithreshVaddi-27/CrimeSleuth)** (4) — **trained** 14-class crime-scene classifier (Colab, `.pth`) + YOLO Flask inference → Gemini reports. · **[SignatureSense](https://github.com/MaithreshVaddi-27/SignatureSense)** (4) — **integrated** pre-trained Keras `.h5` verifier + preprocessing/tests.
-- KMIT B.Tech CSE 2023–2027 · DSA · OS · DBMS · Networks · SE · Cloud (AWS) · Cyber Security. Extras: F5-TTS Kaggle voice-clone · FoodMunch Bootstrap page. Full detail: [`docs/CV_All.pdf`](./docs/CV_All.pdf)
+- KMIT B.Tech CSE 2023–2027 · DSA · OS · DBMS · Networks · SE · Cloud (AWS) · Cyber Security. Extras: F5-TTS Kaggle voice-clone · FoodMunch Bootstrap page.
 
 ---
 

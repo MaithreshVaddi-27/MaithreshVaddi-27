@@ -370,3 +370,17 @@ Method: same lens as Round 9 (GitHub-profile-native + professional output), ever
 2. **`12-metrics-strip.svg` — vocabulary drift (Round-5 follow-through).** Labels read `solo agent systems` / `production automations` against the unified SYSTEMS/AUTOMATIONS language (status line, hero, typing, sections). Fixed to `solo systems` / `automations` (centered anchors — geometry self-preserving).
 
 Both XML-validated. Full-suite recheck (XML ×13, banned refs, asset 1:1) still green — see R8.2/R4.3 commands.
+
+---
+
+# Round 12 — Docs housekeeping (2026-09-26, uncommitted)
+
+- Audit moved to its proper home: `AUDIT.md` → `docs/AUDIT.md` (via `git mv`, history preserved).
+- `docs/CV_All.pdf` removed (95 KB) + the README `Full detail: docs/CV_All.pdf` link detached — no dangling references (verified by grep; only this log's historical rows mention it, correctly left as record).
+- `docs/` now contains exactly one file: the audit.
+
+---
+
+# Round 11 — Typing-SVG redesign as terminal session (2026-09-26, uncommitted)
+
+Problem: the typing block repeated the eyebrow (`whoami --role`), hero subtitle, and metrics strip verbatim — decoration with zero new information. Redesigned as a 6-line command→output session where each pair earns its place: `$ whoami` → `maithreshvaddi-27 :: ai-ml-engineer` · `$ cat mission.txt` → `agentic RAG that works offline` · `$ ./prove.sh --strict` → `10 systems · 13 automations · 0 inflated claims`. Validated by decoding: 8 clean params, 0 malformed splits, no raw-`&` breakage, longest line 47ch ≈ 569px < 920px canvas. Alt text updated to match.
