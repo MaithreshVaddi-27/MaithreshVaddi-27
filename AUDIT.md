@@ -297,3 +297,19 @@ Upstream `action.yml` confirms **no theme input** exists (only `github_user_name
 - `pacman.yml` YAML-valid, 4 steps in order: generate → chown → recolor → push.
 - Zero snake refs in README/workflows/assets; 13 disk = 13 referenced, 0 orphans.
 - Working tree: `D snake.yml`, `D snake_metadata.py`, `M pacman.yml`, `M README.md`, `?? pacman_recolor.py` — **left uncommitted for owner review**.
+
+---
+
+# Round 7 — CI red: missing checkout (2026-09-26, committed)
+
+## R7.1 Failure
+
+`Recolor grid to maithresh.sh cyan ramp` failed with `can't open file '.github/scripts/pacman_recolor.py': No such file or directory` (exit 2).
+
+## R7.2 Root cause (mine, not upstream)
+
+`pacman.yml` never had an `actions/checkout` step — the runner workspace starts empty, and every prior step used container actions that don't touch repo files, so nobody noticed. The recolor `run:` step was the first to need a repo file. Web-check against canonical generate→push workflows (crazy-max docs, activity-graph-action, star-history-ci) confirms: `actions/checkout` first is the standard pattern and coexists fine with `ghaction-github-pages` (which builds its own git repo from `build_dir` alone).
+
+## R7.3 Fix
+
+Added `Check out repo (for recolor script) — actions/checkout@v4` as step 1. Final order: checkout → generate → chown → recolor → push. Step-ordering audited: generate writes untracked `dist/` (no conflict with checkout), recolor still sits after chown (write access), push unaffected. Lesson recorded: **any new `run:` step touching repo files must be preceded by checkout — verify with a mental dry-run of the workspace state, not just YAML validity.**

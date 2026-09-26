@@ -19,6 +19,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Check out repo (for recolor script)
+        uses: actions/checkout@v4
+
       - name: Generate pacman SVGs
         uses: abozanona/pacman-contribution-graph@main
         with:
