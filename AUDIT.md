@@ -345,3 +345,28 @@ Owner actions (require you, not the agent):
 4. Optional backlog: R2-R1 breakout game · R2-R2 SHA-pin `@main` · R2-R5 card `<title>`s · R2-R6 portrait reveal budget.
 5. Wontfix by design: R3-R1 pill hover, komarev counter (revert one-liner in R3.3 if wanted).
 6. Recurring: re-run the banned-ref + asset 1:1 + XML checks after any future asset edit (commands in R8.2/R4.3).
+
+---
+
+# Round 9 — Logout rewritten as GitHub-profile outro (2026-09-26, uncommitted)
+
+Request: SVGs — mainly logout — should read as a GitHub profile README ending, not a website/SSH session. The old card (`$ logout` → `Connection to … closed`) was a server metaphor; profiles don't have SSH sessions, they have visitors.
+
+New `11-session-end.svg` (chrome, geometry, `p1/r1/r2` motion + reduced-motion untouched):
+- Title `maithresh.sh: exit 0`, prompt `$ exit` (exit-code gag = clean shutdown, no fake SSH).
+- `Session saved · 10 systems · 13 automations · 100% offline.` (recaps the profile's numbers).
+- `Thanks for visiting — star TrustRAG · fork CareerOS-Pro · ⌘K console` (visitor CTA naming real repos, no emoji per ui-ux-pro-max).
+- Longest line ≈73 chars ≈ 526px < 800px safe width. README alt → `exit 0 — thanks for visiting`. XML-valid. Other 12 SVGs untouched (already profile-native: boot, portrait, about, stack telemetry, metrics, contact, arcade).
+
+---
+
+# Round 10 — Profile-native re-audit of all 13 SVGs (2026-09-26, uncommitted)
+
+Method: same lens as Round 9 (GitHub-profile-native + professional output), every text node re-extracted. 11 of 13 clean as-is (boot, about, stack telemetry, contact, pills, stack strip, arcade-adjacent metrics).
+
+## R10.1 Two defects found + fixed
+
+1. **`02-ascii-portrait.svg` — invalid command + title/prompt mismatch.** Prompt rendered `$ whoami MaithreshVaddi` (`whoami` takes no argument — any engineer spots it instantly) while the title bar said `whoami --ascii`. Fixed prompt to `$ whoami --ascii`, dropped the stray tspan (the ASCII art below IS the command's output). Left-aligned, shorter — zero overflow risk.
+2. **`12-metrics-strip.svg` — vocabulary drift (Round-5 follow-through).** Labels read `solo agent systems` / `production automations` against the unified SYSTEMS/AUTOMATIONS language (status line, hero, typing, sections). Fixed to `solo systems` / `automations` (centered anchors — geometry self-preserving).
+
+Both XML-validated. Full-suite recheck (XML ×13, banned refs, asset 1:1) still green — see R8.2/R4.3 commands.
