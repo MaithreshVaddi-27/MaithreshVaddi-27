@@ -1,0 +1,38 @@
+name: Generate Pacman
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: pacman-output
+      cancel-in-progress: false
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate pacman SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: 'pacman'
+
+      - name: Fix dist ownership (container writes as root)
+        run: sudo chown -R $(whoami):$(whoami) dist/ && ls -la dist/
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
