@@ -253,3 +253,24 @@ Retired `assets/13-stack-marquee.svg` (deleted — triple redundancy with strip 
 - Asset cross-check: **13 on-disk = 13 referenced, 0 orphans, 0 missing**.
 - `14-stack-strip.svg` XML-valid, 16 glyph paths, `<title>` + `role="img"`.
 - Working tree: `M README.md`, `D assets/13-stack-marquee.svg`, `?? assets/14-stack-strip.svg` — **left uncommitted for owner review**.
+
+---
+
+# Round 5 — Full production-detail re-sweep (2026-09-26, uncommitted)
+
+Method: full README re-read + programmatic extraction of every `<text>` node from all 13 SVGs + workflow YAML re-parse + `py_compile` + asset cross-check + number/wording audit.
+
+## R5.1 Verified clean (no action)
+
+- Chrome system: bg gradient/scan/gloss/traffic-lights/title-bar convention identical across all 8 terminal cards; pills `rx=9` correctly echo card `rx=12` at small scale.
+- Numbers: `128 = 111+15+2` consistent between README TrustRAG line and `12-metrics-strip.svg`; CGPA `7.96` triple-consistent (H1 sub, About, `03` SVG); contact handles match between `10-closing-statement.svg` and README links; `11-session-end.svg` SSH logout authentic.
+- Infra: both workflows YAML-valid, `snake_metadata.py` compiles, `docs/CV_All.pdf` linked + present, asset cross-check 13=13 with 0 orphans, tree was clean at `aac447a` before this round.
+- Intentional duplications preserved (documented, do not "fix"): H1 vs hero name art (SEO/a11y), contact pills vs closing-SVG vs contact text line (ATS/search), eyebrow vs typing line 1 (static vs animated).
+
+## R5.2 One live defect found + fixed
+
+- **Status-line vocabulary drift:** README line 1 said `10 SOLO AGENTS // 13 PIPELINES` while hero SVG, typing SVG, metrics strip, and `[01]/[02]` sections all say SYSTEMS/AUTOMATIONS — three vocabularies for the same two numbers. Fixed line 1 → `10 SOLO SYSTEMS // 13 AUTOMATIONS`. Zero-risk single-line edit; hero/typing untouched (already correct).
+
+## R5.3 Backlog status
+
+Closed this round: D-2/R2-R3, D-3/R2-R4 (Round 4), vocabulary drift (this round). Still open: R2-R1 breakout, R2-R2 SHA-pin, R2-R5 card `<title>`s, R2-R6 portrait reveal budget, R2-R7 skillicons N/A (wall removed — closed as moot), R2-R8 manual dispatch, R3-R1 (wontfix by design).
