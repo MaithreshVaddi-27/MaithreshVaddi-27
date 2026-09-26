@@ -230,3 +230,26 @@ Note: `linkedin` is absent from Simple Icons v15 CDN but present in `@latest` �
 
 **Applied (Rounds 1–3):** Analytics block removed · output-branch wipe fixed · `concurrency` guards · capsule header/footer removed · typing canvas hardened · brand-color badges → local rounded pills · komarev removed · PodEase chip de-shieldsed · `.DS_Store` purged · `push` trigger aligned to upstream.
 **Backlog (owner sign-off):** R2-R1 breakout game · R2-R2 SHA-pin `@main` · R2-R3/R4 heading language + renumber · R2-R5 SVG `<title>` for the 8 terminal cards · R2-R6 portrait reveal budget · R2-R7 skillicons mobile wrap · R2-R8 manual workflow dispatch + `output`-URL check · **R3-R1:** pill hover states are impossible in static SVG `<img>` — if interactive glow is ever wanted, it must be baked as a second asset + `<picture>` swap (not recommended; keep static).
+
+---
+
+# Round 4 — Editorial-Hybrid refinements + production stack strip (2026-09-26, uncommitted)
+
+## R4.1 Editorial structure (Direction B applied)
+
+- Eyebrow `$ whoami --role // maithresh.sh` above the `<h1>` (mono eyebrow + display name, per B mockup).
+- Thin `---` rules between every major section: hero → About → Stack → 01 → 02 → 03 → 04 → 05 → closing.
+- `## 🛠️ Tech Stack` → `## Stack · `$ ls stack/ --grouped`` (closes backlog D-2/R2-R3 — one heading language everywhere).
+- `## 👻 Contribution Arcade` → `## [05] Arcade` (closes backlog D-3/R2-R4 — single `[01]–[05]` sequence, emoji removed from headings).
+
+## R4.2 Stack icons — production-grade, palette-blended
+
+Replaced the `skillicons.dev` rainbow wall (16 generic icons, off-palette, external host) with **`assets/14-stack-strip.svg`**: terminal card chrome (`rx=12`, `#0D1320→#07090E`, scanlines, traffic lights, `ls stack/ --icons` title) + 8×2 tile grid (`rx=8` tiles on `#141D31`) + official Simple Icons glyphs in brand hexes (Python `#3776AB`, PyTorch `#EE4C2C`, TensorFlow `#FF6F00`, FastAPI `#009688`, React `#61DAFB`, Docker `#2496ED`, AWS `#FF9900`, Redis `#FF4438`, MongoDB `#47A248`, MySQL `#4479A1`, K8s `#326CE5`, JS `#F7DF1E`, TS `#3178C6`, Node `#5FA04E`). Two documented legibility deviations on the dark surface: Express `#000000`→`#E8EDF3`, SQLite `#003B57`→`#419ED6` (ui-ux-pro-max contrast rule; authenticity preserved everywhere else). All 16 paths from `simple-icons@latest`, XML-validated.
+Retired `assets/13-stack-marquee.svg` (deleted — triple redundancy with strip + `<details>` stack; B/Simplicity rule).
+
+## R4.3 Re-check (Round 4)
+
+- Banned-host grep (skillicons, shields, komarev, capsule, stats, marquee) → **CLEAN**.
+- Asset cross-check: **13 on-disk = 13 referenced, 0 orphans, 0 missing**.
+- `14-stack-strip.svg` XML-valid, 16 glyph paths, `<title>` + `role="img"`.
+- Working tree: `M README.md`, `D assets/13-stack-marquee.svg`, `?? assets/14-stack-strip.svg` — **left uncommitted for owner review**.

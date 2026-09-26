@@ -1,5 +1,7 @@
 <p align="center"><sub>● SYS_STATUS: NOMINAL // AUTH: ED25519 // 10 SOLO AGENTS // 13 PIPELINES // LOC: HYDERABAD [17.3850° N, 78.4867° E] // LATENCY: 12ms // ⌘K CONSOLE</sub></p>
 
+<p align="center"><sub><code>$ whoami --role // maithresh.sh</code></sub></p>
+
 <h1 align="center">Hi, I'm Maithresh Vaddi 👋</h1>
 <p align="center"><b>Final-year B.Tech CSE @ KMIT Hyderabad (CGPA 7.96/10)</b> · building <b>agentic RAG</b> that works offline and survives production</p>
 
@@ -17,6 +19,8 @@
 
 <p align="center"><img src="./assets/12-metrics-strip.svg" alt="$ ./metrics.sh --live — 10 solo systems, 13 automations, 100% offline inference" width="100%"/></p>
 
+---
+
 ## About · `$ cat about.md`
 
 > No inflated claims — every line here is something I can defend in an interview. Final-year **B.Tech CSE @ KMIT Hyderabad** (CGPA **7.96/10**), building **agentic RAG** outside class: hybrid retrieval, MCP tool orchestration, LangGraph recovery loops. Now hardening **TrustRAG** verification + pushing **CareerOS-Pro** to Docker prod.
@@ -26,11 +30,11 @@
 <img src="./assets/03-about-intro.svg" alt="$ cat about.md — defense pledge" width="100%"/>
 <img src="./assets/04-status-snapshot.svg" alt="$ curl stack.local/llm — local inference runtime telemetry" width="100%"/>
 
-## 🛠️ Tech Stack
+---
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,react,docker,aws,redis,mongodb,mysql,kubernetes,js,ts,nodejs,express,sqlite&theme=dark" alt="Tech stack icons"/>
-</p>
+## Stack · `$ ls stack/ --grouped`
+
+<p align="center"><img src="./assets/14-stack-strip.svg" alt="$ ls stack/ --icons — production stack on terminal card" width="100%"/></p>
 
 <details>
 <summary><code>$ ls stack/ --grouped</code> — full stack detail</summary>
@@ -43,7 +47,7 @@
 
 </details>
 
-<p align="center"><img src="./assets/13-stack-marquee.svg" alt="$ ls stack/ --stream — streaming stack marquee" width="100%"/></p>
+---
 
 ## [01] Systems · `$ ls projects/ --featured`
 
@@ -73,21 +77,29 @@
 
 </details>
 
+---
+
 ## [02] Automations · `$ ls automation/ --all`
 
 **[Ai-Workflow-Automations](https://github.com/MaithreshVaddi-27/Ai-Workflow-Automations)** — 10 n8n (agentic Shopping Assistant w/ voice + Redis memory · Learning-Path→Docs+Calendar · Internship Applier · Job Tracker · digests) · 2 Make.com (Sheets→Gemini social pipeline · Telegram resume agent) · 1 Automation Anywhere RPA reminder bot (Try-Catch row safety).
 **[PodEase Pro](https://podease-pro.lovable.app)** `● LIVE` — Lovable → n8n webhook → Gemini script → Murf TTS, idea-to-audio.
+
+---
 
 ## [03] Academic · `$ ls team/ --scope=mine`
 
 - **[CrimeSleuth](https://github.com/MaithreshVaddi-27/CrimeSleuth)** (4) — **trained** 14-class crime-scene classifier (Colab, `.pth`) + YOLO Flask inference → Gemini reports. · **[SignatureSense](https://github.com/MaithreshVaddi-27/SignatureSense)** (4) — **integrated** pre-trained Keras `.h5` verifier + preprocessing/tests.
 - KMIT B.Tech CSE 2023–2027 · DSA · OS · DBMS · Networks · SE · Cloud (AWS) · Cyber Security. Extras: F5-TTS Kaggle voice-clone · FoodMunch Bootstrap page. Full detail: [`docs/CV_All.pdf`](./docs/CV_All.pdf)
 
+---
+
 ## [04] Credentials · `$ cat certifications.md`
 
 StudyComrade Data Analytics (EDA on Amazon dataset) · Outskill AI Mastermind (assistants/GPTs, Claude Artifacts, generative media, AI-built sites).
 
-## 👻 Contribution Arcade · `$ ./play.sh --pacman`
+---
+
+## [05] Arcade · `$ ./play.sh --pacman`
 
 <p align="center">
   <picture>
