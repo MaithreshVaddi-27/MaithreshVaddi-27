@@ -109,22 +109,7 @@ StudyComrade Data Analytics (EDA on Amazon dataset) · Outskill AI Mastermind (a
   </picture>
 </p>
 
-<sub>Pac-Man regenerates daily via <code>.github/workflows/pacman.yml</code> → <code>output</code> branch (abozanona/pacman-contribution-graph). Trigger once manually in Actions after push.</sub>
-
-<details>
-<summary><code>$ ./play.sh --snake</code> — classic snake variant</summary>
-<br>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/github-contribution-grid-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/github-contribution-grid-snake.svg" alt="Contribution snake eating the grid" width="100%"/>
-  </picture>
-</p>
-
-<sub>Snake regenerates daily via <code>.github/workflows/snake.yml</code> → <code>output</code> branch. Trigger once manually in Actions after push.</sub>
-
-</details>
+<sub>Pac-Man regenerates daily via <code>.github/workflows/pacman.yml</code> → <code>output</code> branch (abozanona/pacman-contribution-graph) — grid recolored post-generate to the maithresh.sh cyan ramp. Trigger once manually in Actions after push.</sub>
 
 <img src="./assets/10-closing-statement.svg" alt="$ ./contact.sh --open" width="100%"/>
 

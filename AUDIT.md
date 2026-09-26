@@ -274,3 +274,26 @@ Method: full README re-read + programmatic extraction of every `<text>` node fro
 ## R5.3 Backlog status
 
 Closed this round: D-2/R2-R3, D-3/R2-R4 (Round 4), vocabulary drift (this round). Still open: R2-R1 breakout, R2-R2 SHA-pin, R2-R5 card `<title>`s, R2-R6 portrait reveal budget, R2-R7 skillicons N/A (wall removed — closed as moot), R2-R8 manual dispatch, R3-R1 (wontfix by design).
+
+---
+
+# Round 6 — Snake retired, Pac-Man palette-blended (2026-09-26, uncommitted)
+
+## R6.1 Snake removal
+
+Deleted `.github/workflows/snake.yml`, `.github/scripts/snake_metadata.py` (+ stray `__pycache__`), and the README snake `<details>` block. Repo is now a single arcade writer — the old output-branch race (C-1) is structurally extinct, not just guarded. `keep_history` + `concurrency` retained as cheap insurance.
+
+## R6.2 Pac-Man palette — evidence + method
+
+Upstream `action.yml` confirms **no theme input** exists (only `github_user_name / games / player_style / hide_month_labels`), so the recommended blend is post-generate recolor. Token map extracted from the live `output` SVGs (fetched 110–120KB files):
+
+- Grid greens live ONLY in SMIL `<animate values>`: dark `#0e4429/#006d32/#26a641/#39d353`, light `#9be9a8/#40c463/#30a14e/#216e39`. Cell bases (`#161B22/#EBEDF0`), pellets, labels, and character anims (`yellow/red/#808`) identified and excluded.
+- New `.github/scripts/pacman_recolor.py` (stdlib-only, fail-loud like its predecessor) remaps dark greens → `#134E6F/#1B7FB8/#38BDF8/#BAE6FD` and light greens → `#BAE6FD/#38BDF8/#0284C7/#0C4A6E`, preserving luminance order. Characters untouched — Pac-Man stays yellow, or the joke dies.
+- Wired into `pacman.yml` AFTER the chown step (root-owned `dist/` is unwritable before it — ordering matters).
+- **Verified on the real output files:** 38 tokens recolored per file, 0 greens left, XML valid, bases (446 refs) + characters intact. Also caught + fixed a genuine bug in v1 of the script (`str.join` flags misuse) during local testing — CI never saw it.
+
+## R6.3 Re-check (Round 6)
+
+- `pacman.yml` YAML-valid, 4 steps in order: generate → chown → recolor → push.
+- Zero snake refs in README/workflows/assets; 13 disk = 13 referenced, 0 orphans.
+- Working tree: `D snake.yml`, `D snake_metadata.py`, `M pacman.yml`, `M README.md`, `?? pacman_recolor.py` — **left uncommitted for owner review**.
