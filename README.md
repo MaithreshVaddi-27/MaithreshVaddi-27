@@ -15,14 +15,6 @@
   <a href="https://www.hackerrank.com/profile/maithreshvaddi16"><img src="./assets/09-pill-hackerrank.svg" alt="HackerRank" height="32"/></a>
 </p>
 
-<p align="center">
-  <a href="mailto:maithreshvaddi16@gmail.com"><b>📧 Email</b></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/maithreshvaddi/"><b>💼 LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="https://maithresh-sh.pages.dev/"><b>🌐 Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://leetcode.com/u/MaithreshV/"><b>⚡ LeetCode</b></a> &nbsp;·&nbsp;
-  <a href="https://www.hackerrank.com/profile/maithreshvaddi16"><b>🏆 HackerRank</b></a>
-</p>
-
 <p align="center"><img src="./assets/01-hero-whoami.svg" alt="maithresh.sh boot console — Maithresh Vaddi, AI/ML Engineer" width="100%"/></p>
 
 <p align="center"><img src="./assets/12-metrics-strip.svg" alt="$ ./metrics.sh --live — 10 solo systems, 13 automations, 100% offline inference" width="100%"/></p>
