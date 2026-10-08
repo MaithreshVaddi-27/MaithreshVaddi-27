@@ -204,7 +204,7 @@ Request: softer border-radius (no sharp rectangles) + ultra-premium production-l
 
 | File | Label | Glyph source | Glyph color |
 |---|---|---|---|
-| `05-pill-portfolio.svg` (137px) | maithresh.sh | Simple Icons `vercel` path | `#38BDF8` (portfolio accent) |
+| `05-pill-portfolio.svg` (137px) | maithresh.sh | Simple Icons `cloudflare` path | `#F38020` official brand |
 | `06-pill-linkedin.svg` (107px) | LinkedIn | Simple Icons `linkedin` path | `#0A66C2` official brand |
 | `07-pill-gmail.svg` (84px) | Gmail | Simple Icons `gmail` path | `#EA4335` official brand |
 | `08-pill-leetcode.svg` (107px) | LeetCode | Simple Icons `leetcode` path | `#FFA116` official brand |
