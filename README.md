@@ -8,11 +8,19 @@
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=920&lines=%24+whoami;maithreshvaddi-27+%3A%3A+ai-ml-engineer;%24+cat+mission.txt;agentic+RAG+that+works+offline;%24+.%2Fprove.sh+--strict;10+systems+%C2%B7+13+automations+%C2%B7+0+inflated+claims" alt="Terminal session — whoami, mission, proof" width="100%"/></p>
 
 <p align="center">
-  <a href="https://maithreshvaddi-27.github.io/maithresh.sh/"><img src="./assets/05-pill-portfolio.svg" alt="Portfolio — maithresh.sh" height="32"/></a>
+  <a href="https://maithresh-sh.pages.dev/"><img src="./assets/05-pill-portfolio.svg" alt="Portfolio — maithresh.sh" height="32"/></a>
   <a href="https://www.linkedin.com/in/maithreshvaddi/"><img src="./assets/06-pill-linkedin.svg" alt="LinkedIn" height="32"/></a>
   <a href="mailto:maithreshvaddi16@gmail.com"><img src="./assets/07-pill-gmail.svg" alt="Gmail" height="32"/></a>
   <a href="https://leetcode.com/u/MaithreshV/"><img src="./assets/08-pill-leetcode.svg" alt="LeetCode" height="32"/></a>
   <a href="https://www.hackerrank.com/profile/maithreshvaddi16"><img src="./assets/09-pill-hackerrank.svg" alt="HackerRank" height="32"/></a>
+</p>
+
+<p align="center">
+  <a href="mailto:maithreshvaddi16@gmail.com"><b>📧 Email</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/maithreshvaddi/"><b>💼 LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://maithresh-sh.pages.dev/"><b>🌐 Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://leetcode.com/u/MaithreshV/"><b>⚡ LeetCode</b></a> &nbsp;·&nbsp;
+  <a href="https://www.hackerrank.com/profile/maithreshvaddi16"><b>🏆 HackerRank</b></a>
 </p>
 
 <p align="center"><img src="./assets/01-hero-whoami.svg" alt="maithresh.sh boot console — Maithresh Vaddi, AI/ML Engineer" width="100%"/></p>
@@ -64,7 +72,7 @@
 | [Resume Crew](https://github.com/MaithreshVaddi-27/Resume_Crew) | CrewAI resume↔JD matcher, evidence-only report (zero invented skills), 8-workflow Gradio + CLI, offline Ollama default, telemetry off. |
 | [Game Dev Crew](https://github.com/MaithreshVaddi-27/AI-Game-Dev-Crew) | Designer→Dev→QA pipeline, idea → playable WASM game (pygbag + ngrok). Fixed launcher-overwrite + async-loop freeze. |
 
-> `$ run workbench --select-system` → live pipeline simulators + interview defenses on [maithresh.sh](https://maithreshvaddi-27.github.io/maithresh.sh/).
+> `$ run workbench --select-system` → live pipeline simulators + interview defenses on [maithresh.sh](https://maithresh-sh.pages.dev/).
 
 <details>
 <summary><code>$ ls agents/more/</code> — SkillMap · SalaryInsights · Inbox Summarizer · Blog Crew · CourseFinder</summary>
@@ -113,6 +121,6 @@ StudyComrade Data Analytics (EDA on Amazon dataset) · Outskill AI Mastermind (a
 
 <img src="./assets/10-closing-statement.svg" alt="$ ./contact.sh --open" width="100%"/>
 
-📫 [maithresh.sh](https://maithreshvaddi-27.github.io/maithresh.sh/) · [LinkedIn](https://www.linkedin.com/in/maithreshvaddi/) · [maithreshvaddi16@gmail.com](mailto:maithreshvaddi16@gmail.com) — open to AI/ML, GenAI, Agentic AI, Automation internships. Hyderabad / remote.
+📫 [maithresh.sh](https://maithresh-sh.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/maithreshvaddi/) · [maithreshvaddi16@gmail.com](mailto:maithreshvaddi16@gmail.com) — open to AI/ML, GenAI, Agentic AI, Automation internships. Hyderabad / remote.
 
 <img src="./assets/11-session-end.svg" alt="exit 0 — thanks for visiting" width="100%"/>
