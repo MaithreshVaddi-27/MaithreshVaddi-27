@@ -34,7 +34,7 @@
 
 ## Stack · `$ ls stack/ --grouped`
 
-<p align="center"><img src="./assets/14-stack-strip.svg" alt="$ ls stack/ --icons — production stack on terminal card" width="100%"/></p>
+<p align="center"><img src="./assets/14-stack-strip.svg" alt="$ ls stack/ --grouped — categorized production stack on terminal card" width="100%"/></p>
 
 <details>
 <summary><code>$ ls stack/ --grouped</code> — full stack detail</summary>
