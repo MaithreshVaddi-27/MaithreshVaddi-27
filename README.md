@@ -100,8 +100,8 @@
 ### Education & Contribution Activity
 
 **Keshav Memorial Institute of Technology (KMIT), Hyderabad**, B.Tech CSE (2023-2027 · CGPA `7.96/10`)
-Coursework: DSA · Operating Systems · DBMS · Computer Networks · Software Engineering · Cloud Computing (AWS) · Cyber Security
-Applied training: NxtWave (GenAI/LLM + MCP) · StudyComrade (Data Analytics EDA) · Outskill AI Mastermind
+- **Coursework:** DSA · Operating Systems · DBMS · Computer Networks · Software Engineering · Cloud Computing (AWS) · Cyber Security
+- **Applied training:** NxtWave (GenAI/LLM + MCP) · StudyComrade (Data Analytics EDA) · Outskill AI Mastermind
 
 <p align="center">
   <picture>
