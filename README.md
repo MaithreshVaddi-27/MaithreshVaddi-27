@@ -34,21 +34,21 @@ Interactive stage simulators and architecture notes live at [maithresh.pages.dev
 
   An 8-stage local RAG workbench that pairs torch-free ONNX (`bge-small`) embeddings with BM25 reciprocal rank fusion and `int8` reranking. Draft claims are split into SPO triples for NLI checks (`SUPPORTED`, `CONTRADICTED`, `NEUTRAL`), recorded with SHA-256 and temporal audits, and routed through at most two LangGraph recovery passes before returning an answer or `ABSTAIN`. Tested across 86 files (~835 cases), an MCP server interface, prompt tiering for `<=3B` local models, and a k6 load run (`7,282` requests, `p95 9.28ms` under a `300ms` target).
 
-- **[ApplyOS](https://github.com/MaithreshVaddi-27/ApplyOS)** (Bun 1.4.3, TypeScript, Python 3.10+, LuaLaTeX)
-
-  A local-first job application workspace (`applyos` CLI and read-only TUI across 6 packages) built with zero runtime npm dependencies and 13 portal CLIs spanning 14 providers. Scoring stays deterministic through `framework/scoring.json` (9 gates across 4 dimensions) guarded by `spec_parity.py`, alongside ATS-checked LuaLaTeX resume builds, 96 test files (~1,041 cases), and 4 offline evaluation suites.
-
-- **[CareerOS-Pro](https://github.com/MaithreshVaddi-27/CareerOS-Pro)** (FastAPI, MySQL 8, Qdrant, React 19)
-
-  Self-hosted job tracker pulling from 6 sources plus async `scrape_url()` ingestion (tested on Apple Careers across 16 listings). Uses pure-Python `normalize.py` rules where missing fields stay `unknown`, `url_hash` and `content_hash` deduplication, a LangGraph `human_review` gate, and Gemini CRAFT explanations, checked by 17 test files (~218 functions) and pinned Ruff and `oxlint` rules.
-
 - **[Agentic DocuChat](https://github.com/MaithreshVaddi-27/MCP_Agentic_DocuChat)** (Ollama, llama.cpp, MLX, ChromaDB, Composio MCP)
 
   Offline PDF Q&A (`v3.2.1`) designed so replies stay anchored to exact source pages. Validates `%PDF-` magic bytes, fingerprints Chroma collections to reject stale indexes, packs chunks with TOON, shares a single MMR pass between generation and citations, and runs 5 unittest suites (102 cases) with DeepEval checks.
 
+- **[ApplyOS](https://github.com/MaithreshVaddi-27/ApplyOS)** (Bun 1.4.3, TypeScript, Python 3.10+, LuaLaTeX)
+
+  A local-first job application workspace (`applyos` CLI and read-only TUI across 6 packages) built with zero runtime npm dependencies and 13 portal CLIs spanning 14 providers. Scoring stays deterministic through `framework/scoring.json` (9 gates across 4 dimensions) guarded by `spec_parity.py`, alongside ATS-checked LuaLaTeX resume builds, 96 test files (~1,041 cases), and 4 offline evaluation suites.
+
 - **[Resume Crew](https://github.com/MaithreshVaddi-27/Resume_Crew)** (CrewAI 1.15.11, MLX-LM, Ollama, Gradio, Docker)
 
   Evidence-only resume-to-JD matcher (`v1.4.0`) that refuses ungrounded edits and writes 9 artifacts per run (`PDF`, `DOCX`, `MD`, gap report, `run_meta.json`). Ships with staged file writes, auth-gated `GRADIO_SHARE`, `--check-hardware` checks, telemetry disabled, and 8 pytest files (52 cases).
+
+- **[CareerOS-Pro](https://github.com/MaithreshVaddi-27/CareerOS-Pro)** (FastAPI, MySQL 8, Qdrant, React 19)
+
+  Self-hosted job tracker pulling from 6 sources plus async `scrape_url()` ingestion (tested on Apple Careers across 16 listings). Uses pure-Python `normalize.py` rules where missing fields stay `unknown`, `url_hash` and `content_hash` deduplication, a LangGraph `human_review` gate, and Gemini CRAFT explanations, checked by 17 test files (~218 functions) and pinned Ruff and `oxlint` rules.
 
 - **[MCP Agents Suite](https://github.com/MaithreshVaddi-27/MCP_SkillMap_Agent)** (LangChain, LangGraph, Composio MCP, Gemini)
 
