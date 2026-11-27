@@ -31,7 +31,7 @@ jobs:
       - name: Fix dist ownership (container writes as root)
         run: sudo chown -R $(whoami):$(whoami) dist/ && ls -la dist/
 
-      - name: Recolor grid to maithresh.sh cyan ramp
+      - name: Recolor grid to Monograph Cobalt ramp
         run: python3 .github/scripts/pacman_recolor.py
 
       - name: Push to output branch

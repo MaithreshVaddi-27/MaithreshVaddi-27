@@ -27,6 +27,8 @@ venv/
 *-preview.png
 *-settled.svg
 *-settled.png
+projects-github/
+design-exploration/
 
 # CI-generated arcade output (lives on the `output` branch, never on main)
 dist/

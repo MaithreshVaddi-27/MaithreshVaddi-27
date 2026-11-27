@@ -1,118 +1,116 @@
-<p align="center"><sub>● SYS_STATUS: NOMINAL // AUTH: ED25519 // 10 SOLO SYSTEMS // 13 AUTOMATIONS // LOC: HYDERABAD [17.3850° N, 78.4867° E] // LATENCY: 12ms // ⌘K CONSOLE</sub></p>
-
-<p align="center"><sub><code>$ whoami --role // maithresh.sh</code></sub></p>
-
-<h1 align="center">Hi, I'm Maithresh Vaddi 👋</h1>
-<p align="center"><b>Final-year B.Tech CSE @ KMIT Hyderabad (CGPA 7.96/10)</b> · building <b>agentic RAG</b> that works offline and survives production</p>
-
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=920&lines=%24+whoami;maithreshvaddi-27+%3A%3A+ai-ml-engineer;%24+cat+mission.txt;agentic+RAG+that+works+offline;%24+.%2Fprove.sh+--strict;10+systems+%C2%B7+13+automations+%C2%B7+0+inflated+claims" alt="Terminal session — whoami, mission, proof" width="100%"/></p>
-
 <p align="center">
-  <a href="https://maithresh-sh.pages.dev/"><img src="./assets/05-pill-portfolio.svg" alt="Portfolio — maithresh.sh" height="32"/></a>
-  <a href="https://www.linkedin.com/in/maithreshvaddi/"><img src="./assets/06-pill-linkedin.svg" alt="LinkedIn" height="32"/></a>
-  <a href="mailto:maithreshvaddi16@gmail.com"><img src="./assets/07-pill-gmail.svg" alt="Gmail" height="32"/></a>
-  <a href="https://leetcode.com/u/MaithreshV/"><img src="./assets/08-pill-leetcode.svg" alt="LeetCode" height="32"/></a>
-  <a href="https://www.hackerrank.com/profile/maithreshvaddi16"><img src="./assets/09-pill-hackerrank.svg" alt="HackerRank" height="32"/></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/01-hero-monograph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/01-hero-monograph-light.svg"/>
+    <img src="./assets/01-hero-monograph-dark.svg" alt="Maithresh Vaddi — Verifiable AI systems, built from first principles" width="100%"/>
+  </picture>
 </p>
 
-<p align="center"><img src="./assets/01-hero-whoami.svg" alt="maithresh.sh boot console — Maithresh Vaddi, AI/ML Engineer" width="100%"/></p>
+<p align="center">
+  <a href="https://maithresh.pages.dev/"><strong>Portfolio · maithresh.pages.dev</strong></a> ·
+  <a href="https://www.linkedin.com/in/maithreshvaddi/">LinkedIn</a> ·
+  <a href="mailto:maithreshvaddi16@gmail.com">maithreshvaddi16@gmail.com</a> ·
+  <a href="https://leetcode.com/u/MaithreshV/">LeetCode</a> ·
+  <a href="https://www.hackerrank.com/profile/maithreshvaddi16">HackerRank</a>
+</p>
 
-<p align="center"><img src="./assets/12-metrics-strip.svg" alt="$ ./metrics.sh --live — 10 solo systems, 13 automations, 100% offline inference" width="100%"/></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/02-metrics-ledger-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/02-metrics-ledger-light.svg"/>
+    <img src="./assets/02-metrics-ledger-dark.svg" alt="13+ solo AI systems, 13 workflow automations, 880 GitHub contributions, 7.96 CGPA" width="100%"/>
+  </picture>
+</p>
 
 ---
 
-## About · `$ cat about.md`
+### `FIG 01–02` · System Architecture & Verified Coverage
 
-> No inflated claims — every line here is something I can defend in an interview. Final-year **B.Tech CSE @ KMIT Hyderabad** (CGPA **7.96/10**), building **agentic RAG** outside class: hybrid retrieval, MCP tool orchestration, LangGraph recovery loops. Now hardening **TrustRAG** verification + pushing **CareerOS-Pro** to Docker prod.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/03-system-topology-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/03-system-topology-light.svg"/>
+    <img src="./assets/03-system-topology-dark.svg" alt="FIG 01 — Multi-system architecture topology linking local inference, verification kernel, deterministic pipelines, and MCP/voice/automation fabric" width="100%"/>
+  </picture>
+</p>
 
-<img src="./assets/02-ascii-portrait.svg" alt="$ whoami — handle, role, base, focus, proof" width="100%"/>
-
-<img src="./assets/03-about-intro.svg" alt="$ cat about.md — defense pledge" width="100%"/>
-<img src="./assets/04-status-snapshot.svg" alt="$ curl stack.local/llm — local inference runtime telemetry" width="100%"/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/05-measured-deltas-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/05-measured-deltas-light.svg"/>
+    <img src="./assets/05-measured-deltas-dark.svg" alt="FIG 02 — Verified test and evaluation coverage across ApplyOS, TrustRAG, CareerOS-Pro, DocuChat, and Resume Crew" width="100%"/>
+  </picture>
+</p>
 
 ---
 
-## Stack · `$ ls stack/ --grouped`
+### `SYS 01–06` · Featured AI & Agentic Systems
 
-<p align="center"><img src="./assets/14-stack-strip.svg" alt="$ ls stack/ --grouped — categorized production stack on terminal card" width="100%"/></p>
+> Every metric below maps directly to repository code, test suites, and documented caveats — interactive stage simulators and trade-offs live at **[maithresh.pages.dev](https://maithresh.pages.dev/#workbench)**.
+
+| System | Architecture & Hard Guarantee | Verification & Stack |
+|---|---|---|
+| **[TrustRAG](https://github.com/MaithreshVaddi-27/TrustRAG)** `FLAGSHIP` | 8-stage local-first RAG reliability workbench: deterministic route (`0` LLM), hybrid `bge-small` (ONNX) + BM25 RRF + int8 `ms-marco` rerank, SPO atomic claim NLI (`SUPPORTED / CONTRADICTED / NEUTRAL`), SHA-256 + temporal audit, LangGraph recovery `≤2` or `ABSTAIN`. Adaptive `≤3B` vs larger-model prompt tiering + `q8_0` KV cache. | `86 test files (~835 cases)` across pytest, Vitest, Playwright & k6 (`p95 < 300ms`) · `FastAPI 0.115` · `LangGraph` · `Qdrant` · `MongoDB 7` · `ONNX` · `MCP JSON-RPC 2.0` · `React 18` |
+| **[ApplyOS](https://github.com/MaithreshVaddi-27/ApplyOS)** | Runtime-agnostic job application OS (India + global-remote): zero-runtime-dep Bun workspace (`applyos` CLI + read-only `applyos-tui`, 6 core packages), 13 Bun portal CLIs, 14 providers in `registry.yaml` (6 aggregators + 8 ATS adapters), 9-gate / 4-dim ranker (`not evaluated` over guessing), ATS-checked LuaLaTeX CVs (`verify_pdf.py --check-ats`). | `96 test files (~1,041 cases)` + `4 offline eval suites` + cross-OS CI · `Bun 1.4.3` · `TypeScript` · `Python 3.10+` · `LuaLaTeX` |
+| **[CareerOS-Pro](https://github.com/MaithreshVaddi-27/CareerOS-Pro)** | Self-hosted job intelligence across 6 sources (JSearch, Adzuna, Remotive, RemoteOK, Arbeitnow + async URL company scraper). Pure-Python `normalize.py` (`unknown` stays `unknown`), `url_hash` + `content_hash` dedup, hard eligibility gates, linear LangGraph `human_review` interrupt, CRAFT-grounded Gemini match explanations. | `17 test files (~218 functions)` + pinned Ruff CI + oxlint + live scraper verification · `FastAPI` · `MySQL 8` · `Qdrant` · `React 19` |
+| **[Agentic DocuChat](https://github.com/MaithreshVaddi-27/MCP_Agentic_DocuChat)** | Offline-first PDF reading companion (`Python 3.10–3.13`) pinned to exact **Sources** pages (rewrites draft once if citations missing). Runs on Ollama, llama.cpp, or MLX with optional Gemini; content-hash vector caching, durable local memory, and prompt-injection resistant evidence isolation. | `5 test files (102 unittest tests)` · `Ollama` · `llama.cpp` · `MLX` · `Gemini` · `ChromaDB` · `SQLite` · `Composio MCP` · `Gradio` |
+| **[Resume Crew](https://github.com/MaithreshVaddi-27/Resume_Crew)** | Evidence-only resume↔JD matcher (`v1.4.0`) exporting 9 artifacts per run (`match_report.{md,pdf,docx}`, profiles, skills gap, tailored bullets, interview prep, `run_meta.json`). Zero invented skills, `--check-hardware` diagnostics, and CrewAI telemetry disabled by default. | `8 test files (52 pytest functions)` + coverage CI + Docker · `CrewAI 1.15.11` · `MLX-LM` · `Ollama` · `Gradio` |
+| **[MCP Agents Suite](https://github.com/MaithreshVaddi-27/MCP_SkillMap_Agent)** | Four multi-turn Python CLI agents built on LangChain, LangGraph in-memory checkpointing, and Composio MCP: [SkillMap](https://github.com/MaithreshVaddi-27/MCP_SkillMap_Agent) (Tavily + JSearch), [SalaryInsights](https://github.com/MaithreshVaddi-27/MCP_SalaryInsights_Agent) (Firecrawl: Glassdoor/AmbitionBox/PayScale/Levels.fyi), [CourseFinder](https://github.com/MaithreshVaddi-27/MCP_CourseFinder_Agent) (Tavily + YouTube), and [Inbox Summarizer](https://github.com/MaithreshVaddi-27/MCP_Email_Inbox_Summarizer) (Gmail triage & drafts). | Explicit retry/backoff & per-thread memory boundaries · `LangChain` · `LangGraph` · `Composio MCP` · `Gemini` |
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/04-fig01-trustrag-trace-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/04-fig01-trustrag-trace-light.svg"/>
+    <img src="./assets/04-fig01-trustrag-trace-dark.svg" alt="FIG 03 — TrustRAG 8-stage verification trace" width="100%"/>
+  </picture>
+</p>
+
+---
+
+### `VOICE · CREWS · AUTO` · Voice AI, Multi-Agent Crews & Workflow Automations
+
+- **[Home Credit LAP Voice Agent](https://github.com/MaithreshVaddi-27/home-credit-lap-voice-agent)** — Bilingual (Hindi/English) **Retell AI** pre-screening voice agent for Loan Against Property offers up to `₹75 lakh`: 7-item eligibility rules with 4 hard stops (agricultural land, missing originals, cash income, tenure outside 3–15 yrs), ₹75L cap negotiation, loan-transfer specialist routing, and `7` scenario transcripts with documented ASR caveats.
+- **[AI Workflow Automations](https://github.com/MaithreshVaddi-27/Ai-Workflow-Automations)** (`13` workflows) — **10 n8n** (Telegram Shopping Assistant w/ Groq Whisper voice + Redis per-user memory, Learning Path → Google Doc + Calendar, LinkedIn Job Tracker, Internship Applier, News Summarizer, Weather Daily Planner, Historical Content Publisher, [PodEase Pro](https://podease-pro.lovable.app/) `LIVE` webhook → Gemini → MurfAI TTS, Learning Journey, Social Media) · **2 Make.com** (15-min multi-platform router, Telegram Resume Evaluator) · **1 Automation Anywhere RPA** (Excel loop email reminder bot).
+- **[AI Game Dev Crew](https://github.com/MaithreshVaddi-27/AI-Game-Dev-Crew) & [AI Blog Writer Crew](https://github.com/MaithreshVaddi-27/Ai-Blog-Writer-Crew)** — 3-agent sequential CrewAI pipelines: `Designer → Python Dev (Serper) → QA Reviewer` compiling browser games via `pygbag` (with `0.9.3` preloader-gate patch) + `ngrok`, and `Strategist → Writer → Editor` timestamped Markdown publishing.
 
 <details>
-<summary><code>$ ls stack/ --grouped</code> — full stack detail</summary>
+<summary><code>ARCHIVE</code> · Portfolio engineering, scoped team ML &amp; media/web builds</summary>
 <br>
 
-- **llm.sh** — LangChain · LangGraph (self-healing loops, multi-provider routing) · CrewAI · MCP server + client (JSON-RPC 2.0, Composio) · RAG (dense + BM25 + RRF) · cross-encoder rerank · NLI verify · Qdrant · ChromaDB · ONNX · bge-small/base, mpnet · Gemini · NVIDIA NIM · Ollama · llama.cpp · MLX · ReAct/Plan-Execute · memory/checkpointing · LoRA/RLHF. Method: directed AI-orchestrated engineering — architecture owned, implementation delegated.
-- **automation.sh** — n8n ×10 · Make.com · Automation Anywhere (RPA) · Webhooks · REST · Telegram Bot API · Groq Whisper · Redis.
-- **backend.sh** — Python · Java (OOP) · C++ · JS (ES6) · SQL · FastAPI · Granian · Flask · httpx · Pydantic · SQLAlchemy · Node/Express · MongoDB · MySQL · SQLite · Redis · Pandas/NumPy. 26 LeetCode SQL.
-- **cloud.sh** — Docker/Compose · AWS (labs) · Render · Cloudflare Pages · K8s · Jenkins · TF/Keras · sklearn · YOLO · Git · pytest/Vitest/Playwright/k6/Bandit/Trivy. Frontend (supporting): React 19, Framer Motion, Gradio, Bootstrap · Figma.
+- **Portfolio & Engineering Surface:** **[maithresh.sh](https://github.com/MaithreshVaddi-27/maithresh.sh)** (`v2.0.0`, React 19 + Vite 8 + GSAP + Lenis + self-hosted fonts + Canvas 2D dot-matrix + axe-core 0 violations) and the live Systems Monograph at **[maithresh.pages.dev](https://maithresh.pages.dev/)**.
+- **Scoped Team ML (KMIT / full-stack):** **[CrimeSleuth](https://github.com/MaithreshVaddi-27/CrimeSleuth)** (KMIT B.Tech II-II RTRP 2024–25: Flask REST API + MongoDB + React/Vite + ML/DL evidence analysis + Gemini case chat/reports) · **[SignatureSense](https://github.com/MaithreshVaddi-27/SignatureSense)** (React/Vite + Node.js/Express + MongoDB + Flask TensorFlow/Keras `model_weights33.h5` signature verification service).
+- **Media & Web Foundations:** **[F5-tts-podcast-generator](https://github.com/MaithreshVaddi-27/F5-tts-podcast-generator)** (reproducible Kaggle T4 notebook with pinned `torch 2.4.0+cu121`, `transformers 4.44.2`, Gradio voice cloning) · **[FoodMunch](https://github.com/MaithreshVaddi-27/FoodMunch)** (HTML5 + CSS3 + Bootstrap 4.5 responsive restaurant site).
 
 </details>
 
 ---
 
-## [01] Systems · `$ ls projects/ --featured`
+### `STACK // METHOD` · Engineering Stack & Build Discipline
 
-### [TrustRAG — AI Reliability Workbench](https://github.com/MaithreshVaddi-27/TrustRAG) · flagship · `FastAPI · React 18 · Qdrant · LangGraph · ONNX · MCP · Docker`
-`route → hybrid retrieve → grounded generate → claim decompose + NLI (one fused call, −62% verify latency) → SHA-256 audit → score vs τ ≥ 0.75 → bounded recover (≤2) → answer / ABSTAIN`
-- Offline by default: Ollama/llama.cpp/MLX + ONNX `bge-small` + int8 rerank. No API keys. Optional Gemini/NVIDIA NIM.
-- Perf work: KV-cache quant, flash attention, prompt caching, speculative decoding, adaptive top-k. JWT-HS256 + JTI denylist, SSRF-hardened URLs, Prometheus, A/B framework, MCP server.
-- 111 pytest + 15 Vitest + 2 Playwright E2E · k6 p95 < 300 ms · Bandit + Trivy CI gates.
-
-| Build | One line |
+| Domain | Production & Local-First Toolchain |
 |---|---|
-| [DocuChat](https://github.com/MaithreshVaddi-27/MCP_Agentic_DocuChat) | Agentic PDF-RAG (CLI + Gradio): Gemini/Ollama/llama.cpp, Composio MCP routing, SQLite memory. Killed the 3-agent swarm → single agent: 6.8 s → 1.9 s, −68% tokens. |
-| [CareerOS-Pro](https://github.com/MaithreshVaddi-27/CareerOS-Pro) | 5 job APIs + async career-page scraper · deterministic normalize, 2-stage dedup (−74% redundant posts) · LangGraph fallback chain · HEAD+Firecrawl verify · `/agents/health` · Docker. |
-| [Resume Crew](https://github.com/MaithreshVaddi-27/Resume_Crew) | CrewAI resume↔JD matcher, evidence-only report (zero invented skills), 8-workflow Gradio + CLI, offline Ollama default, telemetry off. |
-| [Game Dev Crew](https://github.com/MaithreshVaddi-27/AI-Game-Dev-Crew) | Designer→Dev→QA pipeline, idea → playable WASM game (pygbag + ngrok). Fixed launcher-overwrite + async-loop freeze. |
+| **LLM & Agentic AI** | `LangGraph` · `LangChain` · `CrewAI` · `MCP (JSON-RPC 2.0, Composio)` · `Retell AI` · Hybrid RAG (`dense + BM25 + RRF`) · Cross-encoder rerank · NLI claim verification · `Qdrant` · `ChromaDB` · `ONNX Runtime` · `Ollama` · `llama.cpp` · `MLX` · `MLX-LM` · `Gemini` · `NVIDIA NIM` |
+| **Backend & Data** | `Python` · `TypeScript` · `Java (OOP)` · `C++` · `SQL` · `FastAPI` · `Granian` · `Flask` · `httpx` · `Pydantic v2` · `SQLAlchemy 2` · `Bun` · `Node/Express` · `MySQL 8` · `MongoDB 7` · `Redis` · `SQLite` · `Pandas / NumPy` · 26+ LeetCode SQL |
+| **Automations & QA** | `n8n` · `Make.com` · `Automation Anywhere` · `Docker Compose` · `pytest` · `Vitest` · `Playwright` · `k6` · `Ruff` · `oxlint` · `Bandit` · `Trivy` · `GitHub Actions` · `Cloudflare Pages` · AWS / K8s / Jenkins (labs) · `React 19` · `Gradio` |
 
-> `$ run workbench --select-system` → live pipeline simulators + interview defenses on [maithresh.sh](https://maithresh-sh.pages.dev/).
-
-<details>
-<summary><code>$ ls agents/more/</code> — SkillMap · SalaryInsights · Inbox Summarizer · Blog Crew · CourseFinder</summary>
-<br>
-
-- [SkillMap](https://github.com/MaithreshVaddi-27/MCP_SkillMap_Agent) — live India job search (Tavily+JSearch), checkpointed follow-ups.
-- [SalaryInsights](https://github.com/MaithreshVaddi-27/MCP_SalaryInsights_Agent) — Glassdoor/AmbitionBox/PayScale/Levels.fyi via Firecrawl MCP, sourced answers.
-- [Inbox Summarizer](https://github.com/MaithreshVaddi-27/MCP_Email_Inbox_Summarizer) — Gmail URGENT/NEEDS REPLY/FYI triage; drafts only, never sends.
-- [Blog Crew](https://github.com/MaithreshVaddi-27/Ai-Blog-Writer-Crew) / [CourseFinder](https://github.com/MaithreshVaddi-27/MCP_CourseFinder_Agent) — topic→edited post; Tavily+YouTube learning paths, grounded only.
-
-</details>
+> **Build method:** Spec-first, AI-assisted — I write the architecture and line-by-line specifications, direct implementation via agentic coding tools, and retain ownership of every design decision and documented failure mode.
 
 ---
 
-## [02] Automations · `$ ls automation/ --all`
+### `KMIT // CADENCE` · Education & Contribution Activity
 
-**[Ai-Workflow-Automations](https://github.com/MaithreshVaddi-27/Ai-Workflow-Automations)** — 10 n8n (agentic Shopping Assistant w/ voice + Redis memory · Learning-Path→Docs+Calendar · Internship Applier · Job Tracker · digests) · 2 Make.com (Sheets→Gemini social pipeline · Telegram resume agent) · 1 Automation Anywhere RPA reminder bot (Try-Catch row safety).
-**[PodEase Pro](https://podease-pro.lovable.app)** `● LIVE` — Lovable → n8n webhook → Gemini script → Murf TTS, idea-to-audio.
-
----
-
-## [03] Academic · `$ ls team/ --scope=mine`
-
-- **[CrimeSleuth](https://github.com/MaithreshVaddi-27/CrimeSleuth)** (4) — **trained** 14-class crime-scene classifier (Colab, `.pth`) + YOLO Flask inference → Gemini reports. · **[SignatureSense](https://github.com/MaithreshVaddi-27/SignatureSense)** (4) — **integrated** pre-trained Keras `.h5` verifier + preprocessing/tests.
-- KMIT B.Tech CSE 2023–2027 · DSA · OS · DBMS · Networks · SE · Cloud (AWS) · Cyber Security. Extras: F5-TTS Kaggle voice-clone · FoodMunch Bootstrap page.
-
----
-
-## [04] Credentials · `$ cat certifications.md`
-
-StudyComrade Data Analytics (EDA on Amazon dataset) · Outskill AI Mastermind (assistants/GPTs, Claude Artifacts, generative media, AI-built sites).
-
----
-
-## [05] Arcade · `$ ./play.sh --pacman`
+**Keshav Memorial Institute of Technology (KMIT), Hyderabad** — B.Tech CSE (2023–2027 · CGPA `7.96/10`)
+Coursework: DSA · Operating Systems · DBMS · Computer Networks · Software Engineering · Cloud Computing (AWS) · Cyber Security
+Applied training: NxtWave (GenAI/LLM + MCP) · StudyComrade (Data Analytics EDA) · Outskill AI Mastermind
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/pacman-contribution-graph-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/pacman-contribution-graph.svg"/>
-    <img src="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/pacman-contribution-graph.svg" alt="Pac-Man eating the contribution grid" width="100%"/>
+    <img src="https://raw.githubusercontent.com/MaithreshVaddi-27/MaithreshVaddi-27/output/pacman-contribution-graph.svg" alt="Daily Pac-Man contribution graph recolored to Monograph Cobalt" width="100%"/>
   </picture>
 </p>
 
-<sub>Pac-Man regenerates daily via <code>.github/workflows/pacman.yml</code> → <code>output</code> branch (abozanona/pacman-contribution-graph) — grid recolored post-generate to the maithresh.sh cyan ramp. Trigger once manually in Actions after push.</sub>
-
-<img src="./assets/10-closing-statement.svg" alt="$ ./contact.sh --open" width="100%"/>
-
-📫 [maithresh.sh](https://maithresh-sh.pages.dev/) · [LinkedIn](https://www.linkedin.com/in/maithreshvaddi/) · [maithreshvaddi16@gmail.com](mailto:maithreshvaddi16@gmail.com) — open to AI/ML, GenAI, Agentic AI, Automation internships. Hyderabad / remote.
-
-<img src="./assets/11-session-end.svg" alt="exit 0 — thanks for visiting" width="100%"/>
+<p align="center">
+  <sub>Open to AI/ML, GenAI &amp; Backend Engineering internships · Hyderabad, India / Remote · <a href="https://maithresh.pages.dev/"><strong>maithresh.pages.dev</strong></a> · <a href="mailto:maithreshvaddi16@gmail.com">maithreshvaddi16@gmail.com</a></sub>
+</p>

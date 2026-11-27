@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Recolor pacman-contribution-graph SVGs to the maithresh.sh cyan ramp.
+"""Recolor pacman-contribution-graph SVGs to the Monograph Cobalt ramp.
 
 The abozanona action exposes no theme input, so it always emits stock
 GitHub greens inside SMIL <animate values="..."> attributes. This script
 rewrites ONLY those contribution-level tokens, preserving luminance order:
 
-  dark  #0e4429 -> #134E6F,  #006d32 -> #1B7FB8,
-        #26a641 -> #38BDF8,  #39d353 -> #BAE6FD   (maithresh.sh dot ramp)
-  light #9be9a8 -> #BAE6FD,  #40c463 -> #38BDF8,
-        #30a14e -> #0284C7,  #216e39 -> #0C4A6E
+  dark  #0e4429 -> #172554,  #006d32 -> #1D4ED8,
+        #26a641 -> #3B82F6,  #39d353 -> #93C5FD   (Monograph Cobalt dark ramp)
+  light #9be9a8 -> #BFDBFE,  #40c463 -> #60A5FA,
+        #30a14e -> #2563EB,  #216e39 -> #1E3A8A   (Monograph Cobalt light ramp)
 
 Untouched by design: empty-cell bases (#161B22 / #EBEDF0), pellets,
 month labels, Pac-Man/ghost character animations (yellow/red/#808).
@@ -21,14 +21,14 @@ import re
 import sys
 
 MAP = {
-    '#0e4429': '#134E6F',
-    '#006d32': '#1B7FB8',
-    '#26a641': '#38BDF8',
-    '#39d353': '#BAE6FD',
-    '#9be9a8': '#BAE6FD',
-    '#40c463': '#38BDF8',
-    '#30a14e': '#0284C7',
-    '#216e39': '#0C4A6E',
+    '#0e4429': '#172554',
+    '#006d32': '#1D4ED8',
+    '#26a641': '#3B82F6',
+    '#39d353': '#93C5FD',
+    '#9be9a8': '#BFDBFE',
+    '#40c463': '#60A5FA',
+    '#30a14e': '#2563EB',
+    '#216e39': '#1E3A8A',
 }
 
 PAT = re.compile('|'.join(sorted(MAP)), re.IGNORECASE)

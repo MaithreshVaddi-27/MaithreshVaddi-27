@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" width="840" height="164" viewBox="0 0 840 164">
+  <title>FIG 02 — Verified Repository Evidence &amp; Test Coverage (Dark)</title>
+  <rect width="840" height="164" rx="10" fill="#0D1016" stroke="#202634" stroke-width="1"/>
+  <text x="20" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="0.8" fill="#60A5FA">FIG 02 · VERIFIED TEST &amp; EVAL COVERAGE</text>
+  <text x="820" y="26" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#848D9C" text-anchor="end">MEASURED FROM PROJECTS-GITHUB REPOS</text>
+  <line x1="20" y1="38" x2="820" y2="38" stroke="#202634" stroke-width="1"/>
+
+  <text x="20" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#F4F2ED">applyos.engine_ts</text>
+  <rect x="204" y="50" width="230" height="16" rx="3" fill="#161C28"/>
+  <rect x="204" y="50" width="230" height="16" rx="3" fill="#2563EB"/>
+  <text x="450" y="62" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" fill="#93C5FD">1,041 cases (96 files) · 14 providers · 4 evals</text>
+
+  <text x="20" y="90" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#F4F2ED">trustrag.verify_nli</text>
+  <rect x="204" y="78" width="230" height="16" rx="3" fill="#161C28"/>
+  <rect x="204" y="78" width="184" height="16" rx="3" fill="#3B82F6"/>
+  <text x="450" y="90" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" fill="#93C5FD">835 cases (86 files) · k6 p95 &lt; 300ms · ≤3B tier</text>
+
+  <text x="20" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#F4F2ED">careeros.dedup_rules</text>
+  <rect x="204" y="106" width="230" height="16" rx="3" fill="#161C28"/>
+  <rect x="204" y="106" width="52" height="16" rx="3" fill="#60A5FA"/>
+  <text x="450" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" fill="#B8BFCC">218 funcs (17 suites) · 0 LLM parse · ruff CI</text>
+
+  <text x="20" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#F4F2ED">docuchat + resume_crew</text>
+  <rect x="204" y="134" width="230" height="16" rx="3" fill="#161C28"/>
+  <rect x="204" y="134" width="36" height="16" rx="3" fill="#93C5FD"/>
+  <text x="450" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" fill="#B8BFCC">102 + 52 tests · page-cited RAG + 9 artifacts</text>
+</svg>
