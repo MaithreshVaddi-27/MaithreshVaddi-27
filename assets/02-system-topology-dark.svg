@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" width="760" height="212" viewBox="0 0 760 212">
+  <title>System Architecture Topology: Local Runtime, Verification Kernel, and Downstream Runners (Dark)</title>
+  <rect width="760" height="212" rx="10" fill="#0B0D11" stroke="#202634" stroke-width="1"/>
+
+  <text x="24" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="0.6" fill="#60A5FA">SYSTEM ARCHITECTURE</text>
+  <text x="736" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8" text-anchor="end">STATE IN CODE · BOUNDED REASONING</text>
+  <line x1="24" y1="42" x2="736" y2="42" stroke="#202634" stroke-width="1"/>
+
+  <!-- Connectors -->
+  <line x1="238" y1="124" x2="266" y2="124" stroke="#3B82F6" stroke-width="1.5"/>
+  <polygon points="264,120 272,124 264,128" fill="#60A5FA"/>
+  <line x1="488" y1="124" x2="516" y2="124" stroke="#3B82F6" stroke-width="1.5"/>
+  <polygon points="514,120 522,124 514,128" fill="#60A5FA"/>
+
+  <!-- Stage 01 -->
+  <rect x="24" y="58" width="214" height="132" rx="8" fill="#11141B" stroke="#202634" stroke-width="1"/>
+  <text x="38" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#93C5FD">01 · LOCAL RUNTIME</text>
+  <line x1="38" y1="90" x2="224" y2="90" stroke="#1E2534" stroke-width="1"/>
+  <text x="38" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" fill="#F4F2ED">Inference &amp; Vectors</text>
+  <text x="38" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#CBD5E1">Ollama, llama.cpp, MLX</text>
+  <text x="38" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#CBD5E1">ONNX bge-small + int8</text>
+  <text x="38" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94A3B8">Gemini / NIM optional</text>
+
+  <!-- Stage 02 -->
+  <rect x="274" y="58" width="214" height="132" rx="8" fill="#11141B" stroke="#3B82F6" stroke-width="1.2"/>
+  <text x="288" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#93C5FD">02 · VERIFICATION</text>
+  <line x1="288" y1="90" x2="474" y2="90" stroke="#1E2534" stroke-width="1"/>
+  <text x="288" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" fill="#F4F2ED">TrustRAG &amp; DocuChat</text>
+  <text x="288" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#CBD5E1">BM25 + RRF + SPO NLI</text>
+  <text x="288" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#CBD5E1">SHA-256 + temporal log</text>
+  <text x="288" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#60A5FA">Recover &lt;=2 or ABSTAIN</text>
+
+  <!-- Stage 03 -->
+  <rect x="524" y="58" width="212" height="132" rx="8" fill="#11141B" stroke="#202634" stroke-width="1"/>
+  <text x="538" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#93C5FD">03 · SYSTEMS &amp; MCP</text>
+  <line x1="538" y1="90" x2="722" y2="90" stroke="#1E2534" stroke-width="1"/>
+  <text x="538" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" fill="#F4F2ED">Apps &amp; Automations</text>
+  <text x="538" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#CBD5E1">ApplyOS, CareerOS-Pro</text>
+  <text x="538" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#CBD5E1">4 MCP CLIs, Resume Crew</text>
+  <text x="538" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94A3B8">Retell Voice, n8n, Make</text>
+</svg>
