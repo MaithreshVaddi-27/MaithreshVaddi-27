@@ -38,10 +38,6 @@ Interactive stage simulators and architecture notes live at [maithresh.pages.dev
 
   Offline PDF Q&A (`v3.2.1`) designed so replies stay anchored to exact source pages. Validates `%PDF-` magic bytes, fingerprints Chroma collections to reject stale indexes, packs chunks with TOON, shares a single MMR pass between generation and citations, and runs 5 unittest suites (102 cases) with DeepEval checks.
 
-- **[ApplyOS](https://github.com/MaithreshVaddi-27/ApplyOS)** (Bun 1.4.3, TypeScript, Python 3.10+, LuaLaTeX)
-
-  A local-first job application workspace (`applyos` CLI and read-only TUI across 6 packages) built with zero runtime npm dependencies and 13 portal CLIs spanning 14 providers. Scoring stays deterministic through `framework/scoring.json` (9 gates across 4 dimensions) guarded by `spec_parity.py`, alongside ATS-checked LuaLaTeX resume builds, 96 test files (~1,041 cases), and 4 offline evaluation suites.
-
 - **[Resume Crew](https://github.com/MaithreshVaddi-27/Resume_Crew)** (CrewAI 1.15.11, MLX-LM, Ollama, Gradio, Docker)
 
   Evidence-only resume-to-JD matcher (`v1.4.0`) that refuses ungrounded edits and writes 9 artifacts per run (`PDF`, `DOCX`, `MD`, gap report, `run_meta.json`). Ships with staged file writes, auth-gated `GRADIO_SHARE`, `--check-hardware` checks, telemetry disabled, and 8 pytest files (52 cases).
@@ -81,8 +77,8 @@ Interactive stage simulators and architecture notes live at [maithresh.pages.dev
 | Area | Primary tools |
 |---|---|
 | Retrieval & Agents | LangGraph, LangChain, CrewAI, Composio MCP, Retell AI, Qdrant, ChromaDB, ONNX Runtime, Ollama, llama.cpp, MLX, Gemini |
-| Backend & Data | Python, TypeScript, SQL, Java, C++, FastAPI, Granian, Flask, Bun, Node.js, MySQL 8, MongoDB 7, Redis, SQLite |
-| Automation & Testing | n8n, Make.com, Docker Compose, pytest, Vitest, Playwright, k6, Ruff, oxlint, Bandit, Trivy, GitHub Actions, React 19, Gradio |
+| Backend & Data | Python, TypeScript, SQL, Java, C++, FastAPI, Granian, Flask, Node.js, MySQL 8, MongoDB 7, Redis, SQLite |
+| Automation & Testing | n8n, Make.com, Docker Compose, pytest, Playwright, k6, Ruff, oxlint, Bandit, Trivy, GitHub Actions, React 19, Gradio |
 
 ---
 

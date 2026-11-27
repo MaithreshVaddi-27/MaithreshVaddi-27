@@ -35,7 +35,7 @@
   <text x="538" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#1D4ED8">03 · SYSTEMS &amp; MCP</text>
   <line x1="538" y1="90" x2="722" y2="90" stroke="#EFECE5" stroke-width="1"/>
   <text x="538" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="600" fill="#14161A">Apps &amp; Automations</text>
-  <text x="538" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#374151">ApplyOS, CareerOS-Pro</text>
-  <text x="538" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#374151">4 MCP CLIs, Resume Crew</text>
-  <text x="538" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#4B5563">Retell Voice, n8n, Make</text>
+  <text x="538" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#374151">Resume Crew, CareerOS-Pro</text>
+  <text x="538" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#374151">4 MCP CLIs, Retell Voice</text>
+  <text x="538" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#4B5563">n8n, Make, CrewAI</text>
 </svg>
