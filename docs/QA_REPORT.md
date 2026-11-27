@@ -39,3 +39,4 @@
 - `04-fig01-trustrag-trace-{dark,light}.svg` — `FIG 03` TrustRAG 8-stage verification trace (`ANSWER` / `ABSTAIN`)
 - `.github/scripts/pacman_recolor.py` — Updated Pac-Man contribution ramp to Monograph Cobalt (`#172554 → #93C5FD` dark, `#BFDBFE → #1E3A8A` light)
 - All 10 SVGs XML-validated, `<title>` + `prefers-reduced-motion: reduce` checked, zero external dependencies, visually inspected in Brave across Dark and Light themes.
+- Prose audited with `unslop --stdin --deterministic`, `humanizer`, and `avoid-ai-writing` (zero em-dash connectors, zero AI buzzwords, zero meta-narrative).
