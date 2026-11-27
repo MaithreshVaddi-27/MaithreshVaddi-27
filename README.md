@@ -18,7 +18,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/02-metrics-ledger-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="./assets/02-metrics-ledger-light.svg"/>
-    <img src="./assets/02-metrics-ledger-dark.svg" alt="13+ solo AI systems, 13 workflow automations, 880 GitHub contributions, 7.96 CGPA" width="100%"/>
+    <img src="./assets/02-metrics-ledger-dark.svg" alt="13+ solo AI systems, 13 workflow automations, 1,000 GitHub contributions, 7.96 CGPA" width="100%"/>
   </picture>
 </p>
 

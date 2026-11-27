@@ -32,11 +32,11 @@
 
 ## 3. Production Assets (`assets/`) & Verification
 
-- `01-hero-monograph-{dark,light}.svg` — Editorial manifesto + `SPEC // MV-2027` dossier plate
-- `02-metrics-ledger-{dark,light}.svg` — 4-column verified proof strip (`13+`, `13`, `880`, `7.96`)
+- `01-hero-monograph-{dark,light}.svg` — Official `maithresh.pages.dev` Verified Monolith mark + editorial manifesto + `SPEC // MV-2027` dossier plate
+- `02-metrics-ledger-{dark,light}.svg` — 4-column verified proof strip (`13+`, `13`, `1,000`, `7.96`)
 - `03-system-topology-{dark,light}.svg` — `FIG 01` multi-system architecture topology
 - `05-measured-deltas-{dark,light}.svg` — `FIG 02` verified test & eval coverage across flagship repos
 - `04-fig01-trustrag-trace-{dark,light}.svg` — `FIG 03` TrustRAG 8-stage verification trace (`ANSWER` / `ABSTAIN`)
-- `.github/scripts/pacman_recolor.py` — Updated Pac-Man contribution ramp to Monograph Cobalt (`#172554 → #93C5FD` dark, `#BFDBFE → #1E3A8A` light)
+- `.github/scripts/pacman_recolor.py` — Updated Pac-Man contribution ramp to match `maithresh.pages.dev` (`#171C26`, `#172554`, `#1E40AF`, `#2563EB`, `#60A5FA` dark; `#EAE4DA`, `#93C5FD`, `#60A5FA`, `#2563EB`, `#1E40AF` light)
 - All 10 SVGs XML-validated, `<title>` + `prefers-reduced-motion: reduce` checked, zero external dependencies, visually inspected in Brave across Dark and Light themes.
 - Prose audited with `unslop --stdin --deterministic`, `humanizer`, and `avoid-ai-writing` (zero em-dash connectors, zero AI buzzwords, zero meta-narrative).

@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
-"""Recolor pacman-contribution-graph SVGs to the Monograph Cobalt ramp.
+"""Recolor pacman-contribution-graph SVGs to the maithresh.pages.dev Cobalt ramp.
 
 The abozanona action exposes no theme input, so it always emits stock
 GitHub greens inside SMIL <animate values="..."> attributes. This script
-rewrites ONLY those contribution-level tokens, preserving luminance order:
+rewrites contribution-level and empty-cell tokens, preserving luminance order:
 
-  dark  #0e4429 -> #172554,  #006d32 -> #1D4ED8,
-        #26a641 -> #3B82F6,  #39d353 -> #93C5FD   (Monograph Cobalt dark ramp)
-  light #9be9a8 -> #BFDBFE,  #40c463 -> #60A5FA,
-        #30a14e -> #2563EB,  #216e39 -> #1E3A8A   (Monograph Cobalt light ramp)
+  dark  empty #161b22 -> #171C26
+        #0e4429 -> #172554,  #006d32 -> #1E40AF,
+        #26a641 -> #2563EB,  #39d353 -> #60A5FA   (maithresh.pages.dev dark ramp)
+  light empty #ebedf0 -> #EAE4DA
+        #9be9a8 -> #93C5FD,  #40c463 -> #60A5FA,
+        #30a14e -> #2563EB,  #216e39 -> #1E40AF   (Monograph light paper ramp)
 
-Untouched by design: empty-cell bases (#161B22 / #EBEDF0), pellets,
-month labels, Pac-Man/ghost character animations (yellow/red/#808).
+Untouched by design: pellets, month labels, and Pac-Man/ghost character
+animations (yellow/red/#808).
 
 Run from repo root after the generate step (expects dist/*.svg).
 Zero dependencies. Fails loud (exit 1) when dist/ is empty.
@@ -21,14 +23,16 @@ import re
 import sys
 
 MAP = {
+    '#161b22': '#171C26',
     '#0e4429': '#172554',
-    '#006d32': '#1D4ED8',
-    '#26a641': '#3B82F6',
-    '#39d353': '#93C5FD',
-    '#9be9a8': '#BFDBFE',
+    '#006d32': '#1E40AF',
+    '#26a641': '#2563EB',
+    '#39d353': '#60A5FA',
+    '#ebedf0': '#EAE4DA',
+    '#9be9a8': '#93C5FD',
     '#40c463': '#60A5FA',
     '#30a14e': '#2563EB',
-    '#216e39': '#1E3A8A',
+    '#216e39': '#1E40AF',
 }
 
 PAT = re.compile('|'.join(sorted(MAP)), re.IGNORECASE)
